@@ -167,6 +167,7 @@ body {
   z-index: 50;
   scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
+  transform: none; /* Explicitly visible on desktop */
 }
 
 .sidebar-nav {
@@ -262,6 +263,13 @@ body {
 
   .header-subtitle {
     display: none;
+  }
+}
+
+/* Desktop-specific reset to be sure */
+@media (min-width: 769px) {
+  .sidebar {
+    transform: none !important;
   }
 }
 

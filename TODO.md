@@ -1,12 +1,15 @@
 # To Do
 
 ## Bugs (hoge prioriteit)
-1. GitHub Pages activeren en testen op mobiel
-2. Sidebar zichtbaar maken op desktop — wordt nu alleen getoond via hamburger menu (css/style.css: mist desktop-specifieke transform reset)
+1. GitHub Pages activeren en testen op mobiel (Klaar voor activatie: bestanden gepusht, relatieve paden gecontroleerd)
 3. Phase collapse animatie: initiële maxHeight ontbreekt bij ingeklapte fases (js/renderer.js: else-clause mist bij regel 78-83)
 4. Section collapse: maxHeight wordt niet herberekend na content wijzigingen, kan glitchy animaties veroorzaken (js/renderer.js)
 
+## Voltooid ✅
+2. Sidebar zichtbaar maken op desktop — wordt nu alleen getoond via hamburger menu (Gefixed met CSS media queries en expliciete transform reset)
+
 ## Verbeteringen (functioneel)
+
 5. Export/Import functie voor progress (zodat je voortgang kunt back-uppen)
 6. Quest data uitbreiden met meer gedetailleerde stappen per mod
 7. Afbeeldingen/iconen toevoegen per mod en bij items
