@@ -1,0 +1,134 @@
+{
+  "modId": "pneumaticcraft",
+  "sections": [
+    {
+      "id": "pnc-start",
+      "title": "Eerste Stappen",
+      "steps": [
+        {
+          "id": "pnc-001",
+          "text": "Craft Compressed Iron Ingots",
+          "details": "Gooi Iron Ingots op de grond en laat ze exploderen met TNT of een Creeper. Het basis materiaal voor PneumaticCraft.",
+          "items": ["Compressed Iron Ingot"],
+          "tip": "Later kun je een Pressure Chamber gebruiken voor efficiëntere productie"
+        },
+        {
+          "id": "pnc-002",
+          "text": "Craft Pressure Tubes",
+          "details": "Pressure Tubes zijn de leidingen die luchtdruk transporteren tussen machines. Vergelijkbaar met cables in andere mods.",
+          "items": ["Pressure Tube"],
+          "tip": null
+        },
+        {
+          "id": "pnc-003",
+          "text": "Craft een Air Compressor",
+          "details": "Je eerste drukluchbron. Verbrandt fuel (kolen, planken, etc.) om luchtdruk te genereren.",
+          "items": ["Air Compressor"],
+          "tip": "Let op de druk-gauge! Te veel druk kan machines laten exploderen"
+        },
+        {
+          "id": "pnc-004",
+          "text": "Craft een Security Upgrade",
+          "details": "Security Upgrades voorkomen dat machines exploderen bij te hoge druk. ZEER belangrijk!",
+          "items": ["Security Upgrade"],
+          "tip": "Stop altijd een Security Upgrade in machines totdat je het druk-systeem goed begrijpt"
+        }
+      ]
+    },
+    {
+      "id": "pnc-chamber",
+      "title": "Pressure Chamber",
+      "steps": [
+        {
+          "id": "pnc-010",
+          "text": "Bouw een Pressure Chamber (3x3x3)",
+          "details": "Een multiblock van Pressure Chamber Walls met een Pressure Chamber Valve en optioneel een Glass variant. Minimaal 3x3x3.",
+          "items": ["Pressure Chamber Wall", "Pressure Chamber Valve", "Pressure Chamber Glass"],
+          "tip": "Je kunt de chamber later uitbreiden naar 4x4x4 of 5x5x5 voor meer ruimte"
+        },
+        {
+          "id": "pnc-011",
+          "text": "Maak Compressed Iron Blocks in de Pressure Chamber",
+          "details": "Nu kun je Iron Ingots efficiënt comprimeren. Gooi items in de valve en geef druk.",
+          "items": ["Compressed Iron Block"],
+          "tip": null
+        },
+        {
+          "id": "pnc-012",
+          "text": "Craft PCB Blueprints in de Pressure Chamber",
+          "details": "PCB (Printed Circuit Board) blueprints zijn nodig voor geavanceerde PneumaticCraft items. Comprimeer de juiste materialen.",
+          "items": ["Empty PCB"],
+          "tip": "Je hebt ook een UV Light Box en een Etching Tank nodig om PCBs af te maken"
+        }
+      ]
+    },
+    {
+      "id": "pnc-advanced",
+      "title": "Geavanceerde Machines",
+      "steps": [
+        {
+          "id": "pnc-020",
+          "text": "Craft een UV Light Box en Etching Acid Tank",
+          "details": "UV Light Box bestraalt Empty PCBs, daarna gaat het naar de Etching Acid Tank om Unassembled PCBs te maken.",
+          "items": ["UV Light Box", "Etching Acid Tank"],
+          "tip": null
+        },
+        {
+          "id": "pnc-021",
+          "text": "Maak je eerste Printed Circuit Boards",
+          "details": "Empty PCB → UV Light Box → Etching Acid Tank → Unassembled PCB. Combineer met capacitors voor het eindproduct.",
+          "items": ["Printed Circuit Board"],
+          "tip": "PCBs zijn nodig voor drones en geavanceerde machines"
+        },
+        {
+          "id": "pnc-022",
+          "text": "Craft een Assembly System",
+          "details": "Assembly Controller + Assembly Platform + Assembly Drill/Laser. Automatiseert crafting van geavanceerde onderdelen.",
+          "items": ["Assembly Controller", "Assembly Platform", "Assembly Drill", "Assembly Laser"],
+          "tip": "Je hebt zowel de Drill als de Laser nodig voor alle recipes"
+        },
+        {
+          "id": "pnc-023",
+          "text": "Craft een Programmable Controller",
+          "details": "Simuleert een drone zonder dat je een echte drone nodig hebt. Nuttig voor automation.",
+          "items": ["Programmable Controller"],
+          "tip": null
+        }
+      ]
+    },
+    {
+      "id": "pnc-drones",
+      "title": "Drones & Logistics",
+      "steps": [
+        {
+          "id": "pnc-030",
+          "text": "Craft een Drone",
+          "details": "Drones zijn vliegende robots die taken uitvoeren. Craft met PCBs en Compressed Iron.",
+          "items": ["Drone"],
+          "tip": null
+        },
+        {
+          "id": "pnc-031",
+          "text": "Programmeer een Drone met een Programmer",
+          "details": "De Programmer is een GUI waar je drone-gedrag visueel programmeert met puzzelstukjes (area, dig, place, pickup, etc.).",
+          "items": ["Programmer"],
+          "tip": "Begin simpel: een Import + Export programma om items te verplaatsen"
+        },
+        {
+          "id": "pnc-032",
+          "text": "Setup Logistics Drones met Logistics Frames",
+          "details": "Logistics Frames op chests/machines + Logistics Drones = automatisch item transport systeem.",
+          "items": ["Logistics Frame (Requester)", "Logistics Frame (Provider)", "Logistics Drone"],
+          "tip": "Dit is het PneumaticCraft alternatief voor item pipes - zeer flexibel"
+        },
+        {
+          "id": "pnc-033",
+          "text": "Craft een Minigun voor combat",
+          "details": "De PneumaticCraft Minigun is een krachtig wapen dat luchtdruk gebruikt. Verschillende ammo types voor verschillende effecten.",
+          "items": ["Minigun", "Minigun Ammo"],
+          "tip": "Upgrade met Dispenser Upgrade voor automatisch schieten"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "modId": "extended-crafting",
+  "sections": [
+    {
+      "id": "ec-tables",
+      "title": "Crafting Tables",
+      "steps": [
+        {
+          "id": "ec-001",
+          "text": "Craft een Basic Crafting Table",
+          "details": "De Basic Table is een 5x5 crafting grid. Veel modded recepten die te groot zijn voor vanilla crafting gebruiken deze tafel.",
+          "items": ["Basic Table", "Black Iron Ingot"],
+          "tip": "Black Iron Ingots maak je door Iron Ingots te smelten met Black Iron Slate"
+        },
+        {
+          "id": "ec-002",
+          "text": "Craft een Elite Crafting Table",
+          "details": "De Elite Table heeft een 7x7 grid. Nodig voor complexere recepten en onderdelen van de ATM Star.",
+          "items": ["Elite Table"],
+          "tip": null
+        },
+        {
+          "id": "ec-003",
+          "text": "Craft een Ultimate Crafting Table",
+          "details": "De Ultimate Table heeft een 9x9 grid. Dit is de grootste standaard tafel en nodig voor de meeste endgame recepten.",
+          "items": ["Ultimate Table"],
+          "tip": "De Ultimate Table is vereist voor het craften van de ATM Star"
+        },
+        {
+          "id": "ec-004",
+          "text": "Craft The Combination Crafting Core",
+          "details": "The Combination is een multiblock die een centraal item combineert met items op Crafting Pedestals eromheen. Vereist veel RF.",
+          "items": ["Crafting Core", "Crafting Pedestal"],
+          "tip": "Sommige recepten hebben tientallen Pedestals nodig - bouw er genoeg"
+        }
+      ]
+    },
+    {
+      "id": "ec-automation",
+      "title": "Automatisering",
+      "steps": [
+        {
+          "id": "ec-010",
+          "text": "Craft een Automation Interface",
+          "details": "De Automation Interface maakt het mogelijk om Extended Crafting Tables te automatiseren met hoppers, pipes of andere item transport.",
+          "items": ["Automation Interface"],
+          "tip": "Plaats de Automation Interface naast de Crafting Table die je wilt automatiseren"
+        },
+        {
+          "id": "ec-011",
+          "text": "Setup een auto-crafting recipe",
+          "details": "Zet het gewenste recept in de Automation Interface met een Blueprint. Items worden automatisch in de juiste slots geplaatst.",
+          "items": ["Automation Interface"],
+          "tip": "Gebruik een Blueprint om het recept vast te leggen, dan hoef je het maar een keer in te stellen"
+        },
+        {
+          "id": "ec-012",
+          "text": "Craft Ender Crafting alternatieven",
+          "details": "De Ender Crafter is een speciale 3x3 tafel. Recepten duren tijd maar kosten geen energie. Items zweven boven de tafel terwijl ze craften.",
+          "items": ["Ender Crafter", "Ender Alternator"],
+          "tip": "Plaats Ender Alternators rond de Ender Crafter om het crafting proces te versnellen"
+        }
+      ]
+    },
+    {
+      "id": "ec-singularities",
+      "title": "Singularities",
+      "steps": [
+        {
+          "id": "ec-020",
+          "text": "Craft een Singularity Maker",
+          "details": "De Singularity Maker comprimeert grote hoeveelheden van een item (meestal 1000+) tot een Singularity. Needs veel RF.",
+          "items": ["Singularity Maker"],
+          "tip": null
+        },
+        {
+          "id": "ec-021",
+          "text": "Maak basis Singularities",
+          "details": "Begin met makkelijke Singularities zoals Iron, Gold, Diamond en Redstone. Je hebt er meestal 1000-10000 items voor nodig.",
+          "items": ["Iron Singularity", "Gold Singularity", "Diamond Singularity"],
+          "tip": "Gebruik een Digital Miner of Laser Drill om genoeg resources te verzamelen"
+        },
+        {
+          "id": "ec-022",
+          "text": "Maak geavanceerde Singularities",
+          "details": "Sommige Singularities vereisen items van andere mods, zoals Draconium, Allthemodium of Vibranium. Check JEI voor de exacte hoeveelheden.",
+          "items": ["Draconium Singularity", "Allthemodium Singularity"],
+          "tip": "Singularities zijn belangrijke ingredienten voor de ATM Star - begin er vroeg mee"
+        },
+        {
+          "id": "ec-023",
+          "text": "Automatiseer Singularity productie",
+          "details": "Verbind je resource farms direct met Singularity Makers via item transport. Laat ze 24/7 draaien voor een constante Singularity output.",
+          "items": ["Singularity Maker"],
+          "tip": "Zet meerdere Singularity Makers neer voor verschillende materials tegelijk"
+        }
+      ]
+    }
+  ]
+}

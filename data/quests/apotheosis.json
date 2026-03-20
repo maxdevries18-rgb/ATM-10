@@ -1,0 +1,100 @@
+{
+  "modId": "apotheosis",
+  "sections": [
+    {
+      "id": "apo-enchanting",
+      "title": "Enchanting Power Setup",
+      "steps": [
+        {
+          "id": "apo-001",
+          "text": "Begrijp het Enchanting Power systeem",
+          "details": "Apotheosis vervangt het vanilla enchanting systeem. Enchanting Power bepaalt het maximale level van enchantments die je kunt krijgen.",
+          "items": ["Enchanting Table"],
+          "tip": "Vanilla bookshelves geven maar 1.0 Enchanting Power per stuk"
+        },
+        {
+          "id": "apo-002",
+          "text": "Gebruik betere boekenkasten",
+          "details": "Craft Infused Seashelf, Dormant Deepshelf, of Sculk Bookshelves voor hogere Enchanting Power. Elke tier geeft meer power per blok.",
+          "items": ["Infused Seashelf", "Dormant Deepshelf"],
+          "tip": "Check de tooltip van elke bookshelf om de Enchanting Power te zien"
+        },
+        {
+          "id": "apo-003",
+          "text": "Voeg Candles toe voor Eterna, Quanta en Arcana",
+          "details": "Candles rondom je Enchanting Table beïnvloeden drie stats: Eterna (max level), Quanta (kans op hogere enchants), en Arcana (kans op zeldzame enchants).",
+          "items": ["Candle"],
+          "tip": "Gekleurde candles geven verschillende stat bonussen"
+        },
+        {
+          "id": "apo-004",
+          "text": "Bouw een optimale enchanting setup",
+          "details": "Combineer high-tier bookshelves met de juiste candle kleuren. Richt je op hoge Eterna voor max levels, en balanceer Quanta/Arcana voor de beste resultaten.",
+          "items": ["Enchanting Table"],
+          "tip": "Sculk-based shelves geven de hoogste Enchanting Power in het spel"
+        }
+      ]
+    },
+    {
+      "id": "apo-spawners",
+      "title": "Spawner Modificatie",
+      "steps": [
+        {
+          "id": "apo-010",
+          "text": "Verzamel een Spawner met Silk Touch",
+          "details": "Met Apotheosis kun je spawners oppakken met een Silk Touch pickaxe. De spawner behoudt zijn mob type.",
+          "items": ["Spawner"],
+          "tip": "Spawners zijn zwaar - het duurt lang om ze te minen"
+        },
+        {
+          "id": "apo-011",
+          "text": "Pas de spawner aan met Spawn Eggs",
+          "details": "Klik met een Spawn Egg op een geplaatste spawner om het mob type te veranderen. Zo maak je elke farm die je wilt.",
+          "items": [],
+          "tip": null
+        },
+        {
+          "id": "apo-012",
+          "text": "Upgrade spawner stats met modifiers",
+          "details": "Gebruik items zoals Redstone, Sugar, Clock en Fermented Spider Eye op een spawner om spawn rate, count en range aan te passen.",
+          "items": ["Redstone", "Sugar", "Clock", "Fermented Spider Eye"],
+          "tip": "Elke modifier heeft een maximum - hover over de spawner om de huidige stats te zien"
+        }
+      ]
+    },
+    {
+      "id": "apo-adventure",
+      "title": "Adventure Module",
+      "steps": [
+        {
+          "id": "apo-020",
+          "text": "Vind Gems in de wereld",
+          "details": "Apotheosis voegt gems toe die je in gear kunt socketen. Gems droppen van mobs en uit chests in dungeons.",
+          "items": [],
+          "tip": "Hogere moeilijkheidsgraad gebieden droppen betere gems"
+        },
+        {
+          "id": "apo-021",
+          "text": "Begrijp het Affix systeem",
+          "details": "Wapens en armor kunnen Affixes krijgen - speciale modifiers met kleuren (common, uncommon, rare, epic, mythic). Deze geven unieke bonussen.",
+          "items": [],
+          "tip": "Mythic affixes zijn extreem zeldzaam maar heel krachtig"
+        },
+        {
+          "id": "apo-022",
+          "text": "Gebruik de Salvaging Table",
+          "details": "Met de Salvaging Table kun je affix items ontmantelen voor materialen. Handig om ongewenste drops te recyclen.",
+          "items": ["Salvaging Table"],
+          "tip": null
+        },
+        {
+          "id": "apo-023",
+          "text": "Socket Gems in je gear",
+          "details": "Gebruik een Gem Cutting Table om gems te slijpen en plaats ze in gear met sockets. Gems geven stat boosts zoals extra damage of health.",
+          "items": ["Gem Cutting Table"],
+          "tip": "Plan je gem setup vooruit - gems verwijderen is niet gratis"
+        }
+      ]
+    }
+  ]
+}

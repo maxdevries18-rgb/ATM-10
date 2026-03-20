@@ -1,0 +1,155 @@
+{
+  "modId": "mekanism",
+  "sections": [
+    {
+      "id": "mek-start",
+      "title": "Eerste Stappen",
+      "steps": [
+        {
+          "id": "mek-001",
+          "text": "Verzamel Osmium Ore",
+          "details": "Osmium is het basis materiaal voor Mekanism. Je vindt het op dezelfde diepte als ijzer.",
+          "items": ["Osmium Ore", "Osmium Ingot"],
+          "tip": "Met een Tinkers' Smeltery krijg je 2 ingots per ore"
+        },
+        {
+          "id": "mek-002",
+          "text": "Craft een Metallurgic Infuser",
+          "details": "Je eerste Mekanism machine. Needs: iron ingots, furnaces, redstone en osmium.",
+          "items": ["Metallurgic Infuser"],
+          "tip": "Dit is de belangrijkste machine - bijna alles begint hier"
+        },
+        {
+          "id": "mek-003",
+          "text": "Maak Steel Ingots",
+          "details": "Voeg Carbon (van coal/charcoal) toe aan Iron Ingots in de Metallurgic Infuser.",
+          "items": ["Steel Ingot", "Enriched Carbon"],
+          "tip": null
+        },
+        {
+          "id": "mek-004",
+          "text": "Craft Steel Casings",
+          "details": "Steel + Osmium + Glass. Steel Casings zijn de basis voor bijna alle Mekanism machines.",
+          "items": ["Steel Casing"],
+          "tip": "Maak er meteen een stuk of 20, je hebt ze overal voor nodig"
+        },
+        {
+          "id": "mek-005",
+          "text": "Craft een Heat Generator",
+          "details": "Je eerste energiebron. Kan passief energie genereren of je stopt er lava in.",
+          "items": ["Heat Generator"],
+          "tip": "Zet hem op lava voor meer energie output"
+        }
+      ]
+    },
+    {
+      "id": "mek-ore",
+      "title": "Ore Processing",
+      "steps": [
+        {
+          "id": "mek-010",
+          "text": "Craft een Enrichment Chamber",
+          "details": "Verdubbelt ores naar 2 ingots per ore. Je eerste ore processing upgrade.",
+          "items": ["Enrichment Chamber"],
+          "tip": null
+        },
+        {
+          "id": "mek-011",
+          "text": "Craft een Energized Smelter",
+          "details": "Elektrische furnace - sneller dan vanilla en werkt met Mekanism energie.",
+          "items": ["Energized Smelter"],
+          "tip": null
+        },
+        {
+          "id": "mek-012",
+          "text": "Setup 2x ore processing: Enrichment Chamber → Energized Smelter",
+          "details": "Ore → Enrichment Chamber (2 dusts) → Energized Smelter (2 ingots). Verbind met Universal Cables voor energie.",
+          "items": ["Universal Cable"],
+          "tip": "Gebruik hoppers of Mekanism Logistical Transporters om items automatisch door te sturen"
+        },
+        {
+          "id": "mek-013",
+          "text": "Craft een Crusher",
+          "details": "Nodig voor de volgende tier ore processing (3x). Crushed ertsen naar dusts.",
+          "items": ["Crusher"],
+          "tip": null
+        },
+        {
+          "id": "mek-014",
+          "text": "Craft een Purification Chamber",
+          "details": "Met Oxygen (uit water via Electrolytic Separator) krijg je 3x ore processing.",
+          "items": ["Purification Chamber"],
+          "tip": null
+        },
+        {
+          "id": "mek-015",
+          "text": "Setup 3x ore processing chain",
+          "details": "Ore → Purification Chamber (3 clumps) → Crusher (3 dirty dusts) → Enrichment Chamber (3 dusts) → Energized Smelter (3 ingots).",
+          "items": ["Electrolytic Separator"],
+          "tip": "Je hebt een Electrolytic Separator nodig om water in Oxygen en Hydrogen te splitsen"
+        }
+      ]
+    },
+    {
+      "id": "mek-energy",
+      "title": "Energie Productie",
+      "steps": [
+        {
+          "id": "mek-020",
+          "text": "Craft een Gas-Burning Generator",
+          "details": "Verbrand Hydrogen (van de Electrolytic Separator) voor veel meer energie dan de Heat Generator.",
+          "items": ["Gas-Burning Generator"],
+          "tip": "Hydrogen + Ethylene samen verbranden geeft enorm veel energie"
+        },
+        {
+          "id": "mek-021",
+          "text": "Craft Wind Generators",
+          "details": "Passieve energie gebaseerd op hoogte. Hoe hoger, hoe meer energie.",
+          "items": ["Wind Generator"],
+          "tip": "Plaats ze op Y=200+ voor maximale output"
+        },
+        {
+          "id": "mek-022",
+          "text": "Bouw een Energy Cube voor opslag",
+          "details": "Slaat energie op. Upgrade naar hogere tiers voor meer capaciteit.",
+          "items": ["Energy Cube"],
+          "tip": "Basic tier is genoeg voor het begin"
+        },
+        {
+          "id": "mek-023",
+          "text": "Setup een Ethylene productie systeem",
+          "details": "Bio Fuel (van planten) → Pressurized Reaction Chamber → Ethylene. Verbrand in Gas-Burning Generator.",
+          "items": ["Pressurized Reaction Chamber", "Crusher", "Bio Fuel"],
+          "tip": "Dit is een van de beste mid-game energiebronnen in Mekanism"
+        }
+      ]
+    },
+    {
+      "id": "mek-digital",
+      "title": "Digital Miner & Geavanceerd",
+      "steps": [
+        {
+          "id": "mek-030",
+          "text": "Craft een Digital Miner",
+          "details": "Automatisch minen van specifieke ores in een groot bereik. Needs Atomic Alloys en Teleportation Cores.",
+          "items": ["Digital Miner", "Atomic Alloy", "Teleportation Core"],
+          "tip": "Filter op specifieke ores om alleen te minen wat je nodig hebt"
+        },
+        {
+          "id": "mek-031",
+          "text": "Setup 4x ore processing (Chemical Injection Chamber)",
+          "details": "Voegt een Chemical Injection Chamber toe aan de keten voor 4x output.",
+          "items": ["Chemical Injection Chamber"],
+          "tip": "Needs Hydrogen Chloride gas - maak dit met een Chemical Infuser"
+        },
+        {
+          "id": "mek-032",
+          "text": "Setup 5x ore processing (Chemical Dissolution Chamber)",
+          "details": "De ultieme ore processing: 5 ingots per ore. Complex maar zeer krachtig.",
+          "items": ["Chemical Dissolution Chamber", "Chemical Washer", "Chemical Crystallizer"],
+          "tip": "Dit is een groot project - zorg dat je genoeg energie hebt voordat je begint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATM 10 Quest Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <header class="header">
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="header-title">
+      <h1>ATM 10</h1>
+      <span class="header-subtitle">Quest Guide</span>
+    </div>
+    <div class="header-search">
+      <input type="text" id="searchInput" placeholder="Zoek mods, items of stappen..." autocomplete="off">
+      <div class="search-results" id="searchResults"></div>
+    </div>
+    <div class="header-stats" id="headerStats">
+      <span class="stats-label">Totaal</span>
+      <span class="stats-value" id="totalProgress">0/0</span>
+    </div>
+  </header>
+
+  <div class="app-layout">
+    <aside class="sidebar" id="sidebar">
+      <nav class="sidebar-nav" id="sidebarNav">
+        <!-- Phases and mods rendered by JS -->
+      </nav>
+    </aside>
+
+    <main class="main-content" id="mainContent">
+      <div class="welcome-screen" id="welcomeScreen">
+        <div class="welcome-icon">⛏️</div>
+        <h2>Welkom bij de ATM 10 Quest Guide</h2>
+        <p>Selecteer een mod in de sidebar om te beginnen met je avontuur.</p>
+        <div class="welcome-phases" id="welcomePhases">
+          <!-- Phase overview rendered by JS -->
+        </div>
+      </div>
+
+      <div class="mod-view" id="modView" hidden>
+        <div class="mod-header">
+          <div class="mod-header-info">
+            <h2 class="mod-title" id="modTitle"></h2>
+            <p class="mod-description" id="modDescription"></p>
+          </div>
+          <div class="mod-progress-wrap">
+            <div class="progress-bar">
+              <div class="progress-fill" id="modProgressFill"></div>
+            </div>
+            <span class="progress-text" id="modProgressText">0/0</span>
+          </div>
+        </div>
+
+        <div class="mod-dependencies" id="modDependencies" hidden>
+          <div class="dep-section dep-requires" id="depRequires" hidden>
+            <span class="dep-label">Aanbevolen eerst:</span>
+            <div class="dep-links" id="depRequiresLinks"></div>
+          </div>
+          <div class="dep-section dep-unlocks" id="depUnlocks" hidden>
+            <span class="dep-label">Helpt met:</span>
+            <div class="dep-links" id="depUnlocksLinks"></div>
+          </div>
+        </div>
+
+        <div class="quest-sections" id="questSections">
+          <!-- Quest sections rendered by JS -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "modId": "iron-chests",
+  "sections": [
+    {
+      "id": "ic-tiers",
+      "title": "Chest Tiers",
+      "steps": [
+        {
+          "id": "ic-001",
+          "text": "Craft een Iron Chest",
+          "details": "54 slots opslag, dubbel zoveel als een vanilla chest. Craft met Iron Ingots rondom een Chest.",
+          "items": ["Iron Chest"],
+          "tip": "Hoeft niet dubbel geplaatst te worden zoals vanilla chests"
+        },
+        {
+          "id": "ic-002",
+          "text": "Craft een Gold Chest",
+          "details": "81 slots opslag. Craft met Gold Ingots rondom een Iron Chest.",
+          "items": ["Gold Chest"],
+          "tip": null
+        },
+        {
+          "id": "ic-003",
+          "text": "Craft een Diamond Chest",
+          "details": "108 slots opslag. Craft met Diamonds en Glass rondom een Gold Chest.",
+          "items": ["Diamond Chest"],
+          "tip": "Diamond Chests zijn een goede tussenoplossing voordat je een ME System hebt"
+        },
+        {
+          "id": "ic-004",
+          "text": "Craft Obsidian en Crystal Chests",
+          "details": "Obsidian Chest heeft 108 slots en is explosion-proof. Crystal Chest heeft ook 108 slots maar laat de inhoud zien door het blok heen.",
+          "items": ["Obsidian Chest", "Crystal Chest"],
+          "tip": "Crystal Chests zijn handig om snel te zien wat erin zit"
+        }
+      ]
+    },
+    {
+      "id": "ic-upgrades",
+      "title": "Bestaande Chests Upgraden",
+      "steps": [
+        {
+          "id": "ic-010",
+          "text": "Craft een Wood to Iron Chest Upgrade",
+          "details": "Klik met het upgrade item op een geplaatste houten chest om hem direct om te zetten naar Iron. Items blijven behouden.",
+          "items": ["Wood to Iron Chest Upgrade"],
+          "tip": "Werkt ook op vanilla double chests"
+        },
+        {
+          "id": "ic-011",
+          "text": "Upgrade stap voor stap omhoog",
+          "details": "Er zijn upgrades voor elke stap: Iron→Gold, Gold→Diamond, Diamond→Obsidian, Diamond→Crystal. Je hoeft de chest niet leeg te halen.",
+          "items": ["Iron to Gold Chest Upgrade", "Gold to Diamond Chest Upgrade"],
+          "tip": null
+        },
+        {
+          "id": "ic-012",
+          "text": "Gebruik directe upgrades om stappen over te slaan",
+          "details": "Er bestaan ook directe upgrades zoals Wood to Diamond of Wood to Gold. Scheelt crafting stappen als je de materialen hebt.",
+          "items": ["Wood to Diamond Chest Upgrade"],
+          "tip": "Check JEI (R-toets) voor alle beschikbare upgrade combinaties"
+        }
+      ]
+    }
+  ]
+}

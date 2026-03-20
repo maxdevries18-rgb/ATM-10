@@ -1,0 +1,141 @@
+{
+  "modId": "botania",
+  "sections": [
+    {
+      "id": "bot-start",
+      "title": "Aan de Slag",
+      "steps": [
+        {
+          "id": "bot-001",
+          "text": "Craft de Lexica Botania",
+          "details": "Craft met een Book en een willekeurige Sapling. Dit is je in-game gids voor alles van Botania.",
+          "items": ["Lexica Botania"],
+          "tip": "De Lexica Botania bevat alle recipes en uitleg - raadpleeg hem vaak"
+        },
+        {
+          "id": "bot-002",
+          "text": "Maak een Petal Apothecary",
+          "details": "Craft met Cobblestone Slabs en Cobblestone. Vul met water en gooi Mystical Petals erin om bloemen te maken.",
+          "items": ["Petal Apothecary"],
+          "tip": "Gooi een Wheat Seed erin als laatste item om de craft te voltooien"
+        },
+        {
+          "id": "bot-003",
+          "text": "Maak een Pure Daisy",
+          "details": "Je eerste functionele bloem. Zet Wood Logs en Stone naast de Pure Daisy om Livingwood en Livingrock te maken.",
+          "items": ["Pure Daisy", "Livingwood", "Livingrock"],
+          "tip": "Je hebt veel Livingwood en Livingrock nodig - maak een array van Pure Daisies"
+        }
+      ]
+    },
+    {
+      "id": "bot-mana",
+      "title": "Mana Generatie",
+      "steps": [
+        {
+          "id": "bot-010",
+          "text": "Craft een Endoflame",
+          "details": "Je eerste mana-genererende bloem. Gooi brandbare items (coal, charcoal, planks) op de grond naast de Endoflame.",
+          "items": ["Endoflame"],
+          "tip": "Gebruik een Hopper of Dropper om automatisch items te voeden"
+        },
+        {
+          "id": "bot-011",
+          "text": "Craft een Mana Spreader en Mana Pool",
+          "details": "De Mana Spreader stuurt mana van bloemen naar de Mana Pool. Richt de Spreader op de Pool door te klikken met een Wand of the Forest.",
+          "items": ["Mana Spreader", "Mana Pool", "Wand of the Forest"],
+          "tip": "Shift+klik met de Wand op de bloem, dan klik op de Spreader om ze te linken"
+        },
+        {
+          "id": "bot-012",
+          "text": "Upgrade naar Kekimurus voor meer mana",
+          "details": "De Kekimurus eet Cake en genereert enorm veel mana per cake. Zet cakes neer naast de bloem.",
+          "items": ["Kekimurus", "Cake"],
+          "tip": "Automatiseer cake productie met een AE2 systeem of vanilla farm"
+        },
+        {
+          "id": "bot-013",
+          "text": "Gebruik Mana Tablets voor draagbare mana",
+          "details": "Craft een Mana Tablet en laad hem op in een Mana Pool. Zo neem je mana mee voor tools en baubles.",
+          "items": ["Mana Tablet"],
+          "tip": null
+        }
+      ]
+    },
+    {
+      "id": "bot-flowers",
+      "title": "Functionele Bloemen",
+      "steps": [
+        {
+          "id": "bot-020",
+          "text": "Craft een Hopperhock",
+          "details": "Pakt automatisch items op van de grond en stopt ze in een naburige inventory. Werkt als een mana-powered hopper.",
+          "items": ["Hopperhock"],
+          "tip": "Geef de Hopperhock een Item Frame met een item om te filteren wat hij oppakt"
+        },
+        {
+          "id": "bot-021",
+          "text": "Craft een Jiyuulia",
+          "details": "Duwt mobs weg van de bloem. Perfect voor mob farms om mobs in een kill zone te duwen.",
+          "items": ["Jiyuulia"],
+          "tip": "Combineer met een Hopperhock om drops automatisch te verzamelen"
+        },
+        {
+          "id": "bot-022",
+          "text": "Craft een Rannuncarpus",
+          "details": "Plaatst automatisch blokken uit een naburige inventory. Ideaal voor automatisch bouwen of farming setups.",
+          "items": ["Rannuncarpus"],
+          "tip": null
+        },
+        {
+          "id": "bot-023",
+          "text": "Ontdek meer bloemen in de Lexica Botania",
+          "details": "Er zijn tientallen functionele bloemen voor elke situatie: Bellethorn (damage mobs), Tigerseye (anger mobs), Fallen Kanade (healing), en meer.",
+          "items": ["Lexica Botania"],
+          "tip": "Elke functionele bloem heeft mana nodig - zorg voor een goede mana supply"
+        }
+      ]
+    },
+    {
+      "id": "bot-endgame",
+      "title": "Terrasteel & Gaia Guardian",
+      "steps": [
+        {
+          "id": "bot-030",
+          "text": "Craft een Terrestrial Agglomeration Plate",
+          "details": "Nodig voor het maken van Terrasteel. Plaats bovenop een Mana Pool met veel mana.",
+          "items": ["Terrestrial Agglomeration Plate"],
+          "tip": "Je hebt meerdere volle Mana Pools nodig voor Terrasteel"
+        },
+        {
+          "id": "bot-031",
+          "text": "Maak Terrasteel Ingots",
+          "details": "Gooi een Manasteel Ingot, een Mana Pearl en een Mana Diamond op de Agglomeration Plate. De Mana Pool eronder moet vol genoeg zijn.",
+          "items": ["Terrasteel Ingot", "Manasteel Ingot", "Mana Pearl", "Mana Diamond"],
+          "tip": "Het process kost heel veel mana - sluit meerdere Mana Pools aan met Sparks"
+        },
+        {
+          "id": "bot-032",
+          "text": "Maak Gaia Spirits met de Gaia Ritual",
+          "details": "Bouw een beacon met Terrasteel/Livingrock pilaren op de hoeken. Start het ritueel met een Gaia Spirit Ingot op de beacon.",
+          "items": ["Gaia Spirit Ingot"],
+          "tip": "Trek de beste gear aan die je hebt - de Gaia Guardian is een zware boss fight"
+        },
+        {
+          "id": "bot-033",
+          "text": "Versla de Gaia Guardian",
+          "details": "De Gaia Guardian is een multi-fase boss die steeds sterker wordt. Gebruik Terrasteel armor en een Mana Blaster of sterk wapen.",
+          "items": ["Terrasteel Helmet", "Terrasteel Chestplate", "Mana Blaster"],
+          "tip": "Blijf binnen het arena bereik, anders healt de boss volledig"
+        },
+        {
+          "id": "bot-034",
+          "text": "Gebruik Gaia Spirits voor endgame items",
+          "details": "Gaia Spirits unlocken de krachtigste Botania items: Dice of Fate, endgame baubles en de Gaia Guardian II fight.",
+          "items": ["Gaia Spirit"],
+          "tip": "De Dice of Fate dropt een willekeurige relic - je kunt elke relic maar 1x krijgen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "modId": "draconic-evolution",
+  "sections": [
+    {
+      "id": "de-resources",
+      "title": "Draconium Verzamelen",
+      "steps": [
+        {
+          "id": "de-001",
+          "text": "Mine Draconium Ore in The End",
+          "details": "Draconium Ore spawnt voornamelijk in The End rond de eilanden. Je hebt minstens een Iron Pickaxe nodig.",
+          "items": ["Draconium Ore", "Draconium Ingot"],
+          "tip": "Draconium spawnt ook in de Overworld en Nether, maar veel zeldzamer dan in The End"
+        },
+        {
+          "id": "de-002",
+          "text": "Versla de Ender Dragon voor Dragon Hearts",
+          "details": "De Ender Dragon dropt een Dragon Heart en Draconium Dust. Dragon Hearts zijn essentieel voor hogere tier items.",
+          "items": ["Dragon Heart", "Draconium Dust"],
+          "tip": "Je kunt de Ender Dragon meerdere keren respawnen met End Crystals op de portal"
+        },
+        {
+          "id": "de-003",
+          "text": "Craft Draconium Blocks voor multiblocks",
+          "details": "Veel Draconic Evolution multiblocks vereisen Draconium Blocks. Craft ze van 9 Draconium Ingots per block.",
+          "items": ["Draconium Block"],
+          "tip": "Begin vroeg met Draconium verzamelen - je hebt er enorm veel van nodig"
+        }
+      ]
+    },
+    {
+      "id": "de-energy",
+      "title": "Energy Core",
+      "steps": [
+        {
+          "id": "de-010",
+          "text": "Bouw een Tier 1 Energy Core",
+          "details": "De Energy Core is een multiblock structuur die enorm veel RF opslaat. Tier 1 heeft Draconium Blocks en een Energy Core Stabilizer nodig.",
+          "items": ["Energy Core", "Energy Core Stabilizer"],
+          "tip": "Volg de in-game guide (Information Tablet) voor de exacte multiblock layout"
+        },
+        {
+          "id": "de-011",
+          "text": "Craft Energy Pylons voor input/output",
+          "details": "Energy Pylons verbinden de Energy Core met je energienetwerk. Zet ze op de buitenkant van de multiblock.",
+          "items": ["Energy Pylon"],
+          "tip": "Je hebt minstens 2 Pylons nodig - een voor input en een voor output"
+        },
+        {
+          "id": "de-012",
+          "text": "Upgrade naar hogere Energy Core tiers",
+          "details": "Hogere tiers slaan exponentieel meer energie op. Tier 7 is de hoogste en slaat bijna oneindig veel RF op.",
+          "items": ["Energy Core", "Awakened Draconium Block"],
+          "tip": "Tier 3-4 is voldoende voor de meeste setups. Tier 7 is overkill maar leuk als project"
+        }
+      ]
+    },
+    {
+      "id": "de-gear",
+      "title": "Armor & Tools",
+      "steps": [
+        {
+          "id": "de-020",
+          "text": "Craft Wyvern tier armor en tools",
+          "details": "Wyvern is de eerste tier. Craft met Draconium Ingots, Wyvern Cores en Wyvern Energy Cores. Elk stuk geeft krachtige abilities.",
+          "items": ["Wyvern Helm", "Wyvern Chestplate", "Wyvern Pickaxe", "Wyvern Core"],
+          "tip": "Wyvern armor geeft al flight en veel bescherming"
+        },
+        {
+          "id": "de-021",
+          "text": "Maak een Fusion Crafting Core",
+          "details": "De Fusion Crafting Core is nodig om Wyvern items te upgraden naar Draconic tier. Plaats Fusion Crafting Injectors eromheen.",
+          "items": ["Fusion Crafting Core", "Fusion Crafting Injector"],
+          "tip": "Plaats de Injectors in een ring rond de Core met 1 block ertussen"
+        },
+        {
+          "id": "de-022",
+          "text": "Upgrade naar Draconic tier",
+          "details": "Gebruik de Fusion Crafting Core om Wyvern items + Awakened Draconium + Dragon Hearts te combineren tot Draconic gear.",
+          "items": ["Draconic Chestplate", "Draconic Pickaxe", "Awakened Draconium Ingot"],
+          "tip": "Je hebt meerdere Dragon Hearts nodig - farm de Ender Dragon meerdere keren"
+        },
+        {
+          "id": "de-023",
+          "text": "Upgrade tools met modules",
+          "details": "Draconic tools en armor hebben een upgrade systeem. Voeg modules toe voor mining speed, damage, shield capacity en meer.",
+          "items": ["Draconic Chestplate"],
+          "tip": "De shield module op je chestplate maakt je bijna onverslaanbaar"
+        }
+      ]
+    },
+    {
+      "id": "de-chaos",
+      "title": "Chaos Guardian & Chaotic Tier",
+      "steps": [
+        {
+          "id": "de-030",
+          "text": "Bereid je voor op de Chaos Guardian",
+          "details": "De Chaos Guardian is de moeilijkste boss in Draconic Evolution. Je hebt minstens volledige Draconic armor nodig met goede upgrades.",
+          "items": ["Draconic Chestplate", "Draconic Sword"],
+          "tip": "Neem genoeg healing mee en zorg dat je armor volledig geladen is met RF"
+        },
+        {
+          "id": "de-031",
+          "text": "Vind de Chaos Island in The End",
+          "details": "De Chaos Guardian bevindt zich op een Chaos Island ver van het centrale End eiland. Vlieg met Draconic armor of gebruik de Dislocator.",
+          "items": ["Dislocator"],
+          "tip": "Chaos Islands zijn te herkennen aan de grote Chaos Crystal in het midden"
+        },
+        {
+          "id": "de-032",
+          "text": "Versla de Chaos Guardian",
+          "details": "De Chaos Guardian heeft enorm veel HP en krachtige aanvallen. Vernietig eerst de Chaos Crystal om hem kwetsbaar te maken.",
+          "items": ["Chaos Shard"],
+          "tip": "De Chaos Guardian kan je shield in een keer doorbreken - hou afstand en gebruik hit-and-run tactics"
+        },
+        {
+          "id": "de-033",
+          "text": "Craft Chaotic tier gear",
+          "details": "Met Chaos Shards kun je via Fusion Crafting de ultieme Chaotic tier items maken. Dit is de sterkste gear in de mod.",
+          "items": ["Chaotic Chestplate", "Chaotic Sword", "Chaos Shard"],
+          "tip": "Chaotic gear is het absolute eindspel van Draconic Evolution"
+        }
+      ]
+    }
+  ]
+}

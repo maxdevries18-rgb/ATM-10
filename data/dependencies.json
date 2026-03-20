@@ -1,0 +1,15 @@
+{
+  "edges": [
+    { "from": "tinkers-construct", "to": "mekanism", "reason": "Smeltery helpt met ore doubling voordat je Mekanism opzet" },
+    { "from": "mekanism", "to": "ae2", "reason": "Mekanism levert energie voor je AE2 systeem" },
+    { "from": "ae2", "to": "extended-crafting", "reason": "AE2 autocrafting vereenvoudigt Extended Crafting recipes" },
+    { "from": "mekanism", "to": "draconic-evolution", "reason": "Mekanism energie en processing voor Draconic materialen" },
+    { "from": "ae2", "to": "draconic-evolution", "reason": "AE2 autocrafting voor complexe Draconic recipes" },
+    { "from": "ae2", "to": "atm-star", "reason": "Autocrafting is essentieel voor ATM Star componenten" },
+    { "from": "mekanism", "to": "atm-star", "reason": "Mekanism materialen nodig voor ATM Star" },
+    { "from": "draconic-evolution", "to": "atm-star", "reason": "Draconic items zijn ingrediënten voor ATM Star" },
+    { "from": "extended-crafting", "to": "atm-star", "reason": "Ultimate Crafting Table nodig voor ATM Star" },
+    { "from": "botania", "to": "atm-star", "reason": "Botania materialen nodig voor ATM Star" },
+    { "from": "ars-nouveau", "to": "atm-star", "reason": "Ars Nouveau materialen nodig voor ATM Star" }
+  ]
+}

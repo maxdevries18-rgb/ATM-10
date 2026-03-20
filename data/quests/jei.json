@@ -1,0 +1,66 @@
+{
+  "modId": "jei",
+  "sections": [
+    {
+      "id": "jei-basics",
+      "title": "Recepten Zoeken",
+      "steps": [
+        {
+          "id": "jei-001",
+          "text": "Open het JEI zoekvenster",
+          "details": "Rechts in je inventory zie je alle items. Typ in de zoekbalk onderaan om te filteren. Je kunt ook op mod zoeken met @modnaam.",
+          "items": [],
+          "tip": "Typ bijv. @mekanism om alleen Mekanism items te zien"
+        },
+        {
+          "id": "jei-002",
+          "text": "Bekijk een recipe met R",
+          "details": "Hover over een item en druk R om te zien hoe je het craft. Werkt ook voor machine recipes zoals smelting en crushing.",
+          "items": [],
+          "tip": "R werkt ook in JEI's eigen recipe scherm om dieper door te klikken"
+        },
+        {
+          "id": "jei-003",
+          "text": "Bekijk het gebruik met U",
+          "details": "Hover over een item en druk U om te zien waar je het voor kunt gebruiken. Handig om te ontdekken welke machines of recipes een item nodig hebben.",
+          "items": [],
+          "tip": "Combineer R en U om snel door recipe chains te navigeren"
+        },
+        {
+          "id": "jei-004",
+          "text": "Gebruik filters en categorieën",
+          "details": "Klik op het tabblad bovenaan het recipe scherm om tussen categorieën te wisselen: Crafting Table, Furnace, mod-specifieke machines, etc.",
+          "items": [],
+          "tip": "Gebruik # voor tooltips zoeken, bijv. #fire_resistant"
+        }
+      ]
+    },
+    {
+      "id": "jei-bookmarks",
+      "title": "Bookmarks & Tips",
+      "steps": [
+        {
+          "id": "jei-010",
+          "text": "Bookmark een item met A",
+          "details": "Hover over een item en druk A om het toe te voegen aan je bookmark lijst links in het scherm. Zo vind je veelgebruikte items snel terug.",
+          "items": [],
+          "tip": "Je bookmarks blijven bewaard tussen sessies"
+        },
+        {
+          "id": "jei-011",
+          "text": "Verplaats items in cheat mode",
+          "details": "In creative of met cheats aan kun je op items klikken om ze in je inventory te krijgen. Links klik = 1 stack, rechts klik = 1 item.",
+          "items": [],
+          "tip": null
+        },
+        {
+          "id": "jei-012",
+          "text": "Gebruik de tree view voor complexe recipes",
+          "details": "Bij items met veel substappen kun je op het + icoon klikken om de hele crafting tree te zien. Handig voor modded items met lange chains.",
+          "items": [],
+          "tip": "Schrijf je shopping list op basis van de tree view voor grote projecten"
+        }
+      ]
+    }
+  ]
+}

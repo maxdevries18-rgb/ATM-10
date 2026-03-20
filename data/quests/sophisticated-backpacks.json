@@ -1,0 +1,100 @@
+{
+  "modId": "sophisticated-backpacks",
+  "sections": [
+    {
+      "id": "sb-tiers",
+      "title": "Backpack Tiers",
+      "steps": [
+        {
+          "id": "sb-001",
+          "text": "Craft een Leather Backpack",
+          "details": "De basis backpack met 27 slots (net als een chest). Craft met leather en string in een chest-patroon.",
+          "items": ["Backpack"],
+          "tip": "Equip in je chestplate slot of gebruik vanuit je hotbar"
+        },
+        {
+          "id": "sb-002",
+          "text": "Upgrade naar Iron Backpack",
+          "details": "Combineer je Leather Backpack met Iron Ingots in de crafting table. Geeft 54 slots en 1 extra upgrade slot.",
+          "items": ["Iron Backpack"],
+          "tip": "Je verliest geen items bij het upgraden"
+        },
+        {
+          "id": "sb-003",
+          "text": "Upgrade naar Gold en Diamond Backpack",
+          "details": "Gold Backpack heeft 81 slots, Diamond heeft 108 slots. Elke tier voegt meer slots en upgrade slots toe.",
+          "items": ["Gold Backpack", "Diamond Backpack"],
+          "tip": null
+        },
+        {
+          "id": "sb-004",
+          "text": "Maak een Netherite Backpack",
+          "details": "De hoogste tier met 120 slots en maximaal upgrade slots. Upgrade een Diamond Backpack met Netherite Ingots.",
+          "items": ["Netherite Backpack"],
+          "tip": "Netherite Backpacks zijn fireproof - ze overleven lava"
+        }
+      ]
+    },
+    {
+      "id": "sb-upgrades",
+      "title": "Upgrades",
+      "steps": [
+        {
+          "id": "sb-010",
+          "text": "Installeer de Pickup Upgrade",
+          "details": "Items die je opraapt gaan automatisch in je backpack als er ruimte is. Activeer via het upgrade tabblad in de backpack.",
+          "items": ["Pickup Upgrade"],
+          "tip": "Combineer met filters zodat alleen specifieke items opgepakt worden"
+        },
+        {
+          "id": "sb-011",
+          "text": "Installeer de Magnet Upgrade",
+          "details": "Trekt items in een straal om je heen automatisch aan. Instelbare range via het upgrade menu.",
+          "items": ["Magnet Upgrade"],
+          "tip": "Zet de range niet te hoog bij mob farms, anders pak je alles op"
+        },
+        {
+          "id": "sb-012",
+          "text": "Installeer de Feeding Upgrade",
+          "details": "Eet automatisch voedsel uit je backpack wanneer je honger hebt. Zorg dat er eten in de backpack zit.",
+          "items": ["Feeding Upgrade"],
+          "tip": "Werkt het beste met hoog-saturatie eten zoals Golden Carrots"
+        },
+        {
+          "id": "sb-013",
+          "text": "Installeer de Crafting Upgrade",
+          "details": "Voegt een 3x3 crafting grid toe aan je backpack. Handig voor onderweg craften zonder Crafting Table.",
+          "items": ["Crafting Upgrade"],
+          "tip": null
+        }
+      ]
+    },
+    {
+      "id": "sb-filters",
+      "title": "Filters Instellen",
+      "steps": [
+        {
+          "id": "sb-020",
+          "text": "Open de filter tab",
+          "details": "In de backpack GUI zie je bovenaan tabbladen. Klik op het filter icoon om in te stellen welke items de backpack accepteert.",
+          "items": [],
+          "tip": null
+        },
+        {
+          "id": "sb-021",
+          "text": "Stel whitelist of blacklist in",
+          "details": "Kies tussen whitelist (alleen deze items) of blacklist (alles behalve deze items). Sleep items naar de filter slots.",
+          "items": [],
+          "tip": "Whitelist is handig voor mining trips - alleen ores en cobblestone"
+        },
+        {
+          "id": "sb-022",
+          "text": "Gebruik meerdere backpacks met filters",
+          "details": "Draag meerdere backpacks met verschillende filters. Bijv. een voor ores, een voor food, een voor bouwmaterialen.",
+          "items": [],
+          "tip": "Combineer met de Pickup Upgrade voor automatische sortering tijdens het spelen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "modId": "ae2",
+  "sections": [
+    {
+      "id": "ae2-resources",
+      "title": "Grondstoffen Verzamelen",
+      "steps": [
+        {
+          "id": "ae2-001",
+          "text": "Mine Certus Quartz",
+          "details": "Certus Quartz Ore vind je ondergronds. Je hebt Certus Quartz Crystals nodig voor bijna alle AE2 recipes.",
+          "items": ["Certus Quartz Crystal", "Certus Quartz Ore"],
+          "tip": "Budding Certus Quartz blokken laten crystals groeien zoals Amethyst"
+        },
+        {
+          "id": "ae2-002",
+          "text": "Maak Fluix Crystals",
+          "details": "Gooi Charged Certus Quartz, Nether Quartz en Redstone samen in water. Ze combineren tot Fluix Crystals.",
+          "items": ["Fluix Crystal", "Charged Certus Quartz Crystal"],
+          "tip": "Charge Certus Quartz in een Charger met energie"
+        },
+        {
+          "id": "ae2-003",
+          "text": "Craft Fluix en Certus onderdelen",
+          "details": "Maak Fluix Dust, Certus Quartz Dust, en Silicon in een Quartz Grindstone. Dit zijn de basismaterialen voor processors.",
+          "items": ["Quartz Grindstone", "Fluix Dust", "Silicon"],
+          "tip": null
+        },
+        {
+          "id": "ae2-004",
+          "text": "Craft de drie Processors",
+          "details": "Logic Processor (Gold + Silicon), Calculation Processor (Certus + Silicon), Engineering Processor (Diamond + Silicon). Maak ze in een Inscriber.",
+          "items": ["Inscriber", "Logic Processor", "Calculation Processor", "Engineering Processor"],
+          "tip": "Je hebt van elke Inscriber Press er maar 1 nodig - ze worden niet verbruikt"
+        }
+      ]
+    },
+    {
+      "id": "ae2-basics",
+      "title": "ME Systeem Basis",
+      "steps": [
+        {
+          "id": "ae2-010",
+          "text": "Craft een ME Drive",
+          "details": "De ME Drive is de kern van je opslagsysteem. Hier plaats je Storage Cells in om items digitaal op te slaan.",
+          "items": ["ME Drive"],
+          "tip": null
+        },
+        {
+          "id": "ae2-011",
+          "text": "Craft Storage Cells",
+          "details": "Begin met 1k ME Storage Cells voor vroeg in het spel. Upgrade later naar 4k, 16k, en 64k naarmate je meer opslag nodig hebt.",
+          "items": ["1k ME Storage Cell", "4k ME Storage Cell", "16k ME Storage Cell", "64k ME Storage Cell"],
+          "tip": "Elke cell kan een beperkt aantal item types bevatten - verdeel slim"
+        },
+        {
+          "id": "ae2-012",
+          "text": "Craft een ME Terminal",
+          "details": "De ME Terminal is je interface om items in en uit het systeem te halen. Plaats hem aan een kabel verbonden met je ME Drive.",
+          "items": ["ME Terminal"],
+          "tip": "Upgrade naar een Crafting Terminal voor ingebouwde crafting"
+        },
+        {
+          "id": "ae2-013",
+          "text": "Plaats een ME Controller",
+          "details": "De ME Controller is het brein van je netwerk. Zonder controller kan je netwerk maar 8 apparaten hebben. Verbind alles met ME Glass Cable.",
+          "items": ["ME Controller", "ME Glass Cable"],
+          "tip": "De Controller heeft energie nodig - verbind een Energy Acceptor"
+        },
+        {
+          "id": "ae2-014",
+          "text": "Voorzie je netwerk van energie",
+          "details": "Plaats een Energy Acceptor en verbind het met je energiebron (Mekanism, Thermal, etc.). Het ME systeem gebruikt AE per tick.",
+          "items": ["Energy Acceptor"],
+          "tip": "Begin met minstens 100 FE/t voor een klein netwerk"
+        }
+      ]
+    },
+    {
+      "id": "ae2-channels",
+      "title": "Channels & Netwerk",
+      "steps": [
+        {
+          "id": "ae2-020",
+          "text": "Begrijp het Channel systeem",
+          "details": "Elke kabel kan maximaal 8 channels dragen. Elk apparaat (Terminal, Bus, Interface) gebruikt 1 channel. Plan je netwerk layout vooruit.",
+          "items": [],
+          "tip": "Dense Smart Cable draagt 32 channels - gebruik deze voor hoofdlijnen"
+        },
+        {
+          "id": "ae2-021",
+          "text": "Gebruik Smart Cables om channels te monitoren",
+          "details": "ME Smart Cable laat visueel zien hoeveel channels er in gebruik zijn. Handig om bottlenecks te vinden.",
+          "items": ["ME Smart Cable"],
+          "tip": "De lijnen op de kabel tellen het aantal channels in gebruik"
+        },
+        {
+          "id": "ae2-022",
+          "text": "Gebruik P2P Tunnels voor channel management",
+          "details": "P2P Tunnels sturen 32 channels door slechts 1 channel. Essentieel voor grote netwerken. Verbind ze met een Memory Card.",
+          "items": ["ME P2P Tunnel", "Memory Card"],
+          "tip": "Shift+klik met een Memory Card op de input, dan klik op de output"
+        },
+        {
+          "id": "ae2-023",
+          "text": "Organiseer met Subnetwerken",
+          "details": "Gebruik aparte kleine netwerken (zonder Controller) voor specifieke taken zoals storage buses of level emitters. Verbind via Storage Bus + Interface.",
+          "items": ["ME Storage Bus", "ME Interface"],
+          "tip": "Subnetwerken gebruiken geen channels van het hoofdnetwerk"
+        }
+      ]
+    },
+    {
+      "id": "ae2-autocrafting",
+      "title": "Autocrafting",
+      "steps": [
+        {
+          "id": "ae2-030",
+          "text": "Craft een Molecular Assembler",
+          "details": "De Molecular Assembler voert de daadwerkelijke crafting uit. Plaats hem naast een ME Interface of Pattern Provider.",
+          "items": ["Molecular Assembler"],
+          "tip": "Meer Assemblers = sneller parallel craften"
+        },
+        {
+          "id": "ae2-031",
+          "text": "Maak Crafting Patterns",
+          "details": "Gebruik een Pattern Encoding Terminal om recipes in Blank Patterns op te slaan. Kies Crafting voor crafting table recipes.",
+          "items": ["Pattern Encoding Terminal", "Blank Pattern"],
+          "tip": null
+        },
+        {
+          "id": "ae2-032",
+          "text": "Stel Processing Patterns in voor machines",
+          "details": "Voor machine recipes (smelting, crushing, etc.) maak je Processing Patterns. Definieer input en output handmatig.",
+          "items": ["Blank Pattern"],
+          "tip": "JEI kan patterns automatisch invullen - klik op het + icoon in een recipe"
+        },
+        {
+          "id": "ae2-033",
+          "text": "Plaats patterns in Pattern Providers",
+          "details": "Stop je Patterns in een Pattern Provider naast de juiste machine. Het ME systeem stuurt items automatisch naar de machine.",
+          "items": ["ME Pattern Provider"],
+          "tip": "Zet de Pattern Provider in directional mode als de machine specifieke input sides heeft"
+        },
+        {
+          "id": "ae2-034",
+          "text": "Bouw een Crafting CPU",
+          "details": "Craft een Crafting Unit en eventueel Crafting Storage (1k, 4k, 16k, 64k) voor grotere jobs. Bouw ze in een kubus of rechthoek.",
+          "items": ["Crafting Unit", "1k Crafting Storage"],
+          "tip": "Meer Crafting Storage = grotere batch jobs tegelijk"
+        }
+      ]
+    }
+  ]
+}

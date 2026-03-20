@@ -1,0 +1,128 @@
+{
+  "modId": "tinkers-construct",
+  "sections": [
+    {
+      "id": "tc-basics",
+      "title": "Basis Werkbank Setup",
+      "steps": [
+        {
+          "id": "tc-001",
+          "text": "Craft een Stencil Table",
+          "details": "Gebruik planks + blank pattern. De blank pattern maak je van 2 planks en 2 sticks.",
+          "items": ["Stencil Table", "Blank Pattern"],
+          "tip": null
+        },
+        {
+          "id": "tc-002",
+          "text": "Craft een Part Builder",
+          "details": "Vergelijkbaar met de Stencil Table maar met een log in plaats van een plank.",
+          "items": ["Part Builder"],
+          "tip": "Zet deze naast je Stencil Table voor makkelijk access"
+        },
+        {
+          "id": "tc-003",
+          "text": "Craft een Tool Station",
+          "details": "Hier assembleer je je tools uit losse parts. Needs een crafting table + pattern.",
+          "items": ["Tool Station"],
+          "tip": null
+        },
+        {
+          "id": "tc-004",
+          "text": "Maak stencils voor Pick Head, Tool Binding en Tool Rod",
+          "details": "Gebruik de Stencil Table om blank patterns om te zetten naar specifieke stencils.",
+          "items": ["Pick Head Pattern", "Tool Binding Pattern", "Tool Rod Pattern"],
+          "tip": null
+        },
+        {
+          "id": "tc-005",
+          "text": "Maak je eerste Tinkers' Pickaxe",
+          "details": "Gebruik de Part Builder om parts te maken van hout of steen, en assembleer in de Tool Station.",
+          "items": ["Pickaxe"],
+          "tip": "Begin met steen parts - ze zijn beter dan hout en makkelijk te krijgen"
+        }
+      ]
+    },
+    {
+      "id": "tc-smeltery",
+      "title": "Smeltery Bouwen",
+      "steps": [
+        {
+          "id": "tc-010",
+          "text": "Verzamel Grout (gravel + sand + clay)",
+          "details": "Je hebt ongeveer 40 grout nodig voor een basis smeltery. Smelt grout in een furnace tot Seared Bricks.",
+          "items": ["Grout", "Seared Bricks"],
+          "tip": "Een river biome is de beste bron voor clay en sand samen"
+        },
+        {
+          "id": "tc-011",
+          "text": "Craft Seared Bricks blocks",
+          "details": "4 Seared Bricks in een 2x2 grid = 1 Seared Bricks block.",
+          "items": ["Seared Bricks Block"],
+          "tip": null
+        },
+        {
+          "id": "tc-012",
+          "text": "Craft een Smeltery Controller",
+          "details": "Het hart van je smeltery. Needs Seared Bricks.",
+          "items": ["Smeltery Controller"],
+          "tip": null
+        },
+        {
+          "id": "tc-013",
+          "text": "Craft een Seared Tank",
+          "details": "Houdt lava vast als brandstof voor de smeltery.",
+          "items": ["Seared Tank"],
+          "tip": "Vul met lava buckets of pipe lava erin"
+        },
+        {
+          "id": "tc-014",
+          "text": "Bouw een 3x3 smeltery structuur",
+          "details": "Minimaal: 3x3 basis van Seared Bricks, Controller aan de zijkant, Tank ergens in de muur, en een Seared Faucet + Casting Table/Basin.",
+          "items": ["Seared Faucet", "Casting Table", "Casting Basin"],
+          "tip": "De smeltery moet een holle ruimte hebben binnenin - de muren, vloer moeten van seared blocks zijn"
+        },
+        {
+          "id": "tc-015",
+          "text": "Smelt je eerste erts in de smeltery",
+          "details": "Gooi erts in de smeltery (top is open). Elk erts geeft 2 ingots aan gesmolten metaal - dat is ore doubling!",
+          "items": [],
+          "tip": "Je kunt ook metaal alloys maken door verschillende ertsen tegelijk te smelten"
+        }
+      ]
+    },
+    {
+      "id": "tc-tools",
+      "title": "Geavanceerde Tools",
+      "steps": [
+        {
+          "id": "tc-020",
+          "text": "Maak metalen tool parts via Casting",
+          "details": "Giet gesmolten metaal uit de smeltery op een Casting Table met een part cast erop.",
+          "items": ["Part Cast"],
+          "tip": "Maak eerst een gold cast door een houten part op de Casting Table te leggen en gold eroverheen te gieten"
+        },
+        {
+          "id": "tc-021",
+          "text": "Craft een Tinkers' Hammer (3x3 mining)",
+          "details": "De hammer mined in een 3x3 area. Needs: hammer head, large plate, tool rod, en large plate.",
+          "items": ["Hammer"],
+          "tip": "Gebruik cobalt of manyullyn voor de beste stats"
+        },
+        {
+          "id": "tc-022",
+          "text": "Voeg modifiers toe aan je tools",
+          "details": "In de Tool Station kun je modifiers toevoegen: Redstone (speed), Lapis (fortune/looting), Diamond (durability), Emerald (extra modifier slot).",
+          "items": [],
+          "tip": "Begin altijd met een Emerald modifier voor het extra slot, dan Redstone voor speed"
+        },
+        {
+          "id": "tc-023",
+          "text": "Maak Manyullyn legering",
+          "details": "Smelt Cobalt + Ardite samen in de Smeltery. Manyullyn is het sterkste Tinkers metaal.",
+          "items": ["Cobalt Ore", "Ardite Ore", "Manyullyn"],
+          "tip": "Cobalt en Ardite vind je in de Nether - je hebt minimaal een Alumite pickaxe nodig om ze te minen"
+        }
+      ]
+    }
+  ]
+}

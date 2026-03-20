@@ -1,0 +1,100 @@
+{
+  "modId": "industrial-foregoing",
+  "sections": [
+    {
+      "id": "if-farming",
+      "title": "Automatisch Farmen",
+      "steps": [
+        {
+          "id": "if-001",
+          "text": "Craft een Plant Sower",
+          "details": "De Plant Sower plant automatisch seeds in een 9x9 gebied. Heeft energie nodig en een interne inventory voor seeds.",
+          "items": ["Plant Sower", "Machine Frame"],
+          "tip": "Zet een chest of hopper erboven om seeds aan te vullen"
+        },
+        {
+          "id": "if-002",
+          "text": "Craft een Plant Gatherer",
+          "details": "De Plant Gatherer oogst automatisch gewassen in hetzelfde bereik als de Sower. Plaats ze naast elkaar voor een volledig geautomatiseerde farm.",
+          "items": ["Plant Gatherer"],
+          "tip": "Combineer met een Sower en een externe storage voor een hands-off wheat farm"
+        },
+        {
+          "id": "if-003",
+          "text": "Maak een Machine Frame",
+          "details": "Machine Frames zijn het basisonderdeel voor bijna alle Industrial Foregoing machines. Craft ze met Iron Ingots, Plastic en een Piston.",
+          "items": ["Machine Frame", "Plastic"],
+          "tip": "Plastic maak je van Dry Rubber in een furnace. Rubber krijg je van Latex via een Latex Processing Unit"
+        },
+        {
+          "id": "if-004",
+          "text": "Setup Bioreactor voor energie",
+          "details": "Voer je overtollige farm output in een Bioreactor. Deze maakt Biofuel dat je in een Biofuel Generator kunt verbranden voor energie.",
+          "items": ["Bioreactor", "Biofuel Generator"],
+          "tip": "Hoe meer verschillende gewassen je invoert, hoe efficienter de Bioreactor werkt"
+        }
+      ]
+    },
+    {
+      "id": "if-mobs",
+      "title": "Mob Farming",
+      "steps": [
+        {
+          "id": "if-010",
+          "text": "Craft een Animal Rancher",
+          "details": "De Animal Rancher melkt koeien, scheert schapen en verzamelt eieren automatisch. Plaats hem bij je dieren.",
+          "items": ["Animal Rancher"],
+          "tip": "Werkt in een 9x9 bereik - zorg dat je dieren niet kunnen ontsnappen"
+        },
+        {
+          "id": "if-011",
+          "text": "Craft een Mob Crusher",
+          "details": "De Mob Crusher doodt mobs automatisch en verzamelt hun drops + XP als Essence. Ideaal voor mob farms.",
+          "items": ["Mob Crusher"],
+          "tip": "De opgeslagen Essence kun je later gebruiken in een Mob Duplicator"
+        },
+        {
+          "id": "if-012",
+          "text": "Bouw een Mob Duplicator",
+          "details": "De Mob Duplicator spawnt kopien van mobs met behulp van een Mob Imprisonment Tool en Essence. Vang eerst een mob met de Imprisonment Tool.",
+          "items": ["Mob Duplicator", "Mob Imprisonment Tool"],
+          "tip": "Combineer met een Mob Crusher voor een oneindige mob farm loop"
+        }
+      ]
+    },
+    {
+      "id": "if-laser",
+      "title": "Laser Drill",
+      "steps": [
+        {
+          "id": "if-020",
+          "text": "Craft een Laser Drill",
+          "details": "De Laser Drill genereert ores uit het niets - geen mining nodig. Needs veel energie maar geeft oneindige resources.",
+          "items": ["Laser Drill"],
+          "tip": "Plaats de Laser Drill zo hoog mogelijk voor een kleine bonus"
+        },
+        {
+          "id": "if-021",
+          "text": "Craft een Laser Base",
+          "details": "De Laser Base gaat direct onder de Laser Drill en verzamelt de gegenereerde ores. Zonder Laser Base werkt de drill niet.",
+          "items": ["Laser Base"],
+          "tip": null
+        },
+        {
+          "id": "if-022",
+          "text": "Voeg Laser Lenses toe voor specifieke ores",
+          "details": "Elke kleur lens verhoogt de kans op bepaalde ores. Wit geeft alles, maar gekleurde lenzen targeten specifieke resources.",
+          "items": ["Laser Lens"],
+          "tip": "Gebruik meerdere Laser Drills met verschillende lenzen voor alle rare ores die je nodig hebt"
+        },
+        {
+          "id": "if-023",
+          "text": "Schaal op met meerdere Laser Drills",
+          "details": "Een enkele Laser Drill is langzaam. Bouw er meerdere naast dezelfde Laser Base voor hogere output.",
+          "items": ["Laser Drill", "Laser Base"],
+          "tip": "4 Laser Drills op 1 Base is een goede start. Vergeet niet genoeg energie te voorzien"
+        }
+      ]
+    }
+  ]
+}

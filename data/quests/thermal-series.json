@@ -1,0 +1,114 @@
+{
+  "modId": "thermal-series",
+  "sections": [
+    {
+      "id": "th-dynamos",
+      "title": "Dynamos & Energie",
+      "steps": [
+        {
+          "id": "th-001",
+          "text": "Craft een Stirling Dynamo",
+          "details": "De basis energiegenerator van Thermal. Verbrand coal, charcoal of andere solid fuels voor Redstone Flux (RF).",
+          "items": ["Stirling Dynamo"],
+          "tip": "Goede early-game energiebron, makkelijk te craften"
+        },
+        {
+          "id": "th-002",
+          "text": "Craft een Magmatic Dynamo",
+          "details": "Verbrandt lava voor energie. Zeer effectief als je een lava bron hebt, zoals een Cobblestone Generator + Crucible setup.",
+          "items": ["Magmatic Dynamo"],
+          "tip": "Combineer met een Thermal Magma Crucible voor oneindige lava"
+        },
+        {
+          "id": "th-003",
+          "text": "Craft een Numismatic Dynamo",
+          "details": "Verbrandt coins en andere waardevolle items voor energie. Werkt goed met een Numismatic Press.",
+          "items": ["Numismatic Dynamo"],
+          "tip": "Klinkt raar, maar coins geven verrassend veel energie"
+        },
+        {
+          "id": "th-004",
+          "text": "Bouw RF Coils voor betere output",
+          "details": "Upgrade je Dynamos met betere RF Coils. Gold Gear → Electrum → Signalum → Enderium voor steeds hogere output.",
+          "items": ["RF Coil"],
+          "tip": null
+        }
+      ]
+    },
+    {
+      "id": "th-machines",
+      "title": "Machines & Processing",
+      "steps": [
+        {
+          "id": "th-010",
+          "text": "Craft een Pulverizer",
+          "details": "Maalt ores naar dusts (2x output) en kan ook andere items vermalen. Een must-have voor ore doubling.",
+          "items": ["Pulverizer"],
+          "tip": "De Pulverizer geeft soms secondary outputs zoals Sulfur of Cinnabar"
+        },
+        {
+          "id": "th-011",
+          "text": "Craft een Induction Smelter",
+          "details": "Combineert twee items onder hoge hitte. Kan ores smelten met Sand voor extra output, of alloys maken.",
+          "items": ["Induction Smelter"],
+          "tip": "Rich Slag van de Induction Smelter verhoogt je ore output naar 3x"
+        },
+        {
+          "id": "th-012",
+          "text": "Craft een Centrifugal Separator",
+          "details": "Scheidt items in hun componenten. Handig voor het verwerken van dusts en het extraheren van zeldzame materialen.",
+          "items": ["Centrifugal Separator"],
+          "tip": null
+        },
+        {
+          "id": "th-013",
+          "text": "Craft een Magma Crucible en Fluid Encapsulator",
+          "details": "De Magma Crucible smelt blocks naar fluids (Cobblestone→Lava). De Fluid Encapsulator vult containers met fluids.",
+          "items": ["Magma Crucible", "Fluid Encapsulator"],
+          "tip": "Cobblestone + Magma Crucible + Magmatic Dynamo = oneindige energie loop"
+        },
+        {
+          "id": "th-014",
+          "text": "Upgrade machines met Augments",
+          "details": "Augments verbeteren je machines. Auxiliary Sieve voor extra outputs, Integral Components voor snelheid, Multithreaded Processing voor parallelle crafts.",
+          "items": ["Auxiliary Sieve", "Integral Components"],
+          "tip": "Elke machine heeft meerdere augment slots - experimenteer met combinaties"
+        }
+      ]
+    },
+    {
+      "id": "th-transport",
+      "title": "Transport met Ducts & Servos",
+      "steps": [
+        {
+          "id": "th-020",
+          "text": "Craft Fluxducts voor energie transport",
+          "details": "Fluxducts transporteren RF energie tussen machines en dynamos. Hardened en Signalum tiers voor hogere throughput.",
+          "items": ["Fluxduct"],
+          "tip": "Leadstone Fluxducts zijn goedkoop maar hebben een lage transfer limiet"
+        },
+        {
+          "id": "th-021",
+          "text": "Craft Itemducts en Servos",
+          "details": "Itemducts transporteren items. Zonder Servo worden items alleen geduwd, met een Servo kun je items uit machines trekken.",
+          "items": ["Itemduct", "Servo"],
+          "tip": "Servos zijn essentieel - zonder servo haalt een itemduct niets op uit een machine"
+        },
+        {
+          "id": "th-022",
+          "text": "Craft Fluiducts voor vloeistof transport",
+          "details": "Fluiducts verplaatsen vloeistoffen zoals water, lava en andere fluids tussen tanks en machines.",
+          "items": ["Fluiduct"],
+          "tip": "Hardened Fluiduct kan ook lava transporteren zonder te smelten"
+        },
+        {
+          "id": "th-023",
+          "text": "Gebruik Filters op Servos",
+          "details": "Klik rechts op een geplaatste Servo om filters in te stellen. Je kunt exact bepalen welke items of vloeistoffen getransporteerd worden.",
+          "items": ["Servo", "Filter"],
+          "tip": "Hogere tier Servos hebben meer filter slots en snellere transfer rates"
+        }
+      ]
+    }
+  ]
+}

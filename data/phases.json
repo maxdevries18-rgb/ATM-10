@@ -1,0 +1,30 @@
+[
+  {
+    "id": "early",
+    "name": "Early Game",
+    "order": 1,
+    "description": "Basis tools, opslag en mobiliteit",
+    "color": "#4CAF50"
+  },
+  {
+    "id": "mid",
+    "name": "Mid Game",
+    "order": 2,
+    "description": "Automatisering, energie en magie",
+    "color": "#2196F3"
+  },
+  {
+    "id": "late",
+    "name": "Late Game",
+    "order": 3,
+    "description": "Geavanceerde technologie en infrastructuur",
+    "color": "#9C27B0"
+  },
+  {
+    "id": "endgame",
+    "name": "Endgame",
+    "order": 4,
+    "description": "ATM Star en creative items",
+    "color": "#FF9800"
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "modId": "atm-star",
+  "sections": [
+    {
+      "id": "atm-prep",
+      "title": "Voorbereiding",
+      "steps": [
+        {
+          "id": "atm-001",
+          "text": "Zorg voor een volledig AE2 autocrafting systeem",
+          "details": "De ATM Star vereist enorm veel materialen en complexe recipes. Zonder autocrafting wordt dit een nachtmerrie.",
+          "items": [],
+          "tip": "Zorg voor minstens 3-4 Crafting CPUs met 64k storage voor parallelle jobs"
+        },
+        {
+          "id": "atm-002",
+          "text": "Setup ore processing op minimaal 4x",
+          "details": "Je hebt enorme hoeveelheden ingots nodig. 4x of 5x Mekanism ore processing bespaart veel minen.",
+          "items": [],
+          "tip": "Combineer Digital Miner + 5x processing voor maximale efficiëntie"
+        },
+        {
+          "id": "atm-003",
+          "text": "Bouw een krachtige energiebron (50k+ FE/t)",
+          "details": "Het crafting proces verbruikt veel energie. Mekanism Fusion Reactor, Draconic Reactor of meerdere Powah reactoren.",
+          "items": [],
+          "tip": "Draconic Evolution Reactor geeft miljoenen FE/t maar kan exploderen als je niet oplet"
+        },
+        {
+          "id": "atm-004",
+          "text": "Verzamel alle benodigde mod materialen",
+          "details": "De ATM Star combineert materialen van vrijwel alle grote mods. Check het recipe in JEI en werk per mod af.",
+          "items": [],
+          "tip": "Maak een checklist per mod zodat je niks vergeet"
+        }
+      ]
+    },
+    {
+      "id": "atm-mek",
+      "title": "Mekanism Componenten",
+      "steps": [
+        {
+          "id": "atm-010",
+          "text": "Craft een Ultimate Control Circuit",
+          "details": "Vereist meerdere tiers circuits: Basic → Advanced → Elite → Ultimate. Elk level vereist de vorige + specifieke alloys.",
+          "items": ["Ultimate Control Circuit", "Elite Control Circuit", "Advanced Control Circuit"],
+          "tip": "Automatiseer circuit productie - je hebt er veel nodig"
+        },
+        {
+          "id": "atm-011",
+          "text": "Maak Atomic Alloys",
+          "details": "Atomic Alloy is de hoogste tier Mekanism alloy. Maak in de Metallurgic Infuser met Enhanced Obsidian Dust + Reinforced Alloy.",
+          "items": ["Atomic Alloy"],
+          "tip": null
+        },
+        {
+          "id": "atm-012",
+          "text": "Craft alle Mekanism componenten voor de ATM Star",
+          "details": "Check JEI voor de exacte materialen. Typisch: Ultimate Energy Cube, Teleportation Core, Anti-Protonic Nucleosynthesizer output.",
+          "items": ["Teleportation Core"],
+          "tip": "Sommige items vereisen specifieke gassen - zorg dat je gas-infrastructuur op orde is"
+        }
+      ]
+    },
+    {
+      "id": "atm-draconic",
+      "title": "Draconic Evolution Componenten",
+      "steps": [
+        {
+          "id": "atm-020",
+          "text": "Versla de Ender Dragon meerdere keren",
+          "details": "Je hebt Dragon Hearts nodig. Elke kill geeft er 1. Respawn de dragon met End Crystals.",
+          "items": ["Dragon Heart"],
+          "tip": "Draconic Evolution armor maakt dit veel makkelijker"
+        },
+        {
+          "id": "atm-021",
+          "text": "Craft Awakened Draconium",
+          "details": "Draconium → Awakened Draconium via de Draconic Evolution Fusion Crafting multiblock.",
+          "items": ["Awakened Draconium Ingot", "Awakened Draconium Block"],
+          "tip": "De Fusion Crafting setup is groot - plan ruimte in"
+        },
+        {
+          "id": "atm-022",
+          "text": "Craft een Draconic Energy Core (tier 7+)",
+          "details": "De hoogste tier energy storage. Vereist Awakened Draconium en Draconic Cores.",
+          "items": ["Draconic Energy Core"],
+          "tip": null
+        },
+        {
+          "id": "atm-023",
+          "text": "Maak alle Draconic componenten voor de ATM Star",
+          "details": "Check JEI voor exacte ingredients. Awakened Cores, Dragon Hearts en Chaos Shards zijn typisch nodig.",
+          "items": ["Chaos Shard", "Awakened Core"],
+          "tip": "Chaos Shards komen van de Chaos Guardian in The End - de moeilijkste boss!"
+        }
+      ]
+    },
+    {
+      "id": "atm-magic",
+      "title": "Magie Componenten",
+      "steps": [
+        {
+          "id": "atm-030",
+          "text": "Craft top-tier Botania items",
+          "details": "Gaia Spirit Ingots en Terrasteel zijn typisch nodig. Versla de Gaia Guardian voor Gaia Spirits.",
+          "items": ["Gaia Spirit Ingot", "Terrasteel Ingot"],
+          "tip": "De Gaia Guardian is lastig - gebruik Botania Relics en goede armor"
+        },
+        {
+          "id": "atm-031",
+          "text": "Craft top-tier Ars Nouveau items",
+          "details": "Source Gems, Archwood essences en Wilden boss drops zijn typische ingrediënten.",
+          "items": ["Source Gem Block"],
+          "tip": null
+        },
+        {
+          "id": "atm-032",
+          "text": "Verzamel materialen van andere magic mods",
+          "details": "Afhankelijk van het exacte recipe kunnen ook items van Blood Magic, Occultism of andere magic mods nodig zijn.",
+          "items": [],
+          "tip": "Check JEI voor het volledige recipe - het verschilt per modpack versie"
+        }
+      ]
+    },
+    {
+      "id": "atm-crafting",
+      "title": "Extended Crafting & Finale",
+      "steps": [
+        {
+          "id": "atm-040",
+          "text": "Bouw een Ultimate Crafting Table",
+          "details": "De Ultimate Crafting Table (9x9 grid) van Extended Crafting. Vereist alle lagere tiers: Basic → Advanced → Elite → Ultimate.",
+          "items": ["Ultimate Table", "Elite Table", "Advanced Table", "Basic Table"],
+          "tip": "Elke tier crafting table vereist de vorige tier + nieuwe materialen"
+        },
+        {
+          "id": "atm-041",
+          "text": "Craft alle ATM Star sub-componenten",
+          "details": "De ATM Star bestaat uit meerdere sub-items die elk hun eigen complexe recipe hebben. Werk ze één voor één af.",
+          "items": [],
+          "tip": "Setup AE2 patterns voor elk sub-component zodat je het kunt autocraftten"
+        },
+        {
+          "id": "atm-042",
+          "text": "Maak Ender Crafting Patterns (als nodig)",
+          "details": "Sommige componenten vereisen de Ender Crafter - een tijdsgebonden crafting table die Ender Pearls verbruikt.",
+          "items": ["Ender Crafter"],
+          "tip": "Ender Crafting duurt tijd - start deze recipes eerst terwijl je andere dingen doet"
+        },
+        {
+          "id": "atm-043",
+          "text": "Combineer alles en craft de ATM Star!",
+          "details": "Plaats alle componenten in de Ultimate Crafting Table en craft het ultieme item van All The Mods 10. Gefeliciteerd!",
+          "items": ["ATM Star"],
+          "tip": "Dit is het eindpunt van de modpack - geniet ervan! 🎉"
+        }
+      ]
+    }
+  ]
+}

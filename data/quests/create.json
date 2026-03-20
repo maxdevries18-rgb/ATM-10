@@ -1,0 +1,169 @@
+{
+  "modId": "create",
+  "sections": [
+    {
+      "id": "create-start",
+      "title": "Basis Mechanica",
+      "steps": [
+        {
+          "id": "create-001",
+          "text": "Craft Andesite Alloy",
+          "details": "Het basismaterial van Create. Combineer Andesite met Iron Nuggets (of Zinc Nuggets) in een crafting table.",
+          "items": ["Andesite Alloy", "Zinc Nugget"],
+          "tip": "Zinc Ore vind je ondergronds - smelt het voor nuggets en ingots"
+        },
+        {
+          "id": "create-002",
+          "text": "Craft Andesite Casings",
+          "details": "Klik met Andesite Alloy op een Stripped Log om Andesite Casings te maken. De basis voor alle Andesite-tier machines.",
+          "items": ["Andesite Casing"],
+          "tip": "Je hebt hier VEEL van nodig - maak er een grote batch"
+        },
+        {
+          "id": "create-003",
+          "text": "Craft Shafts en Cogwheels",
+          "details": "Shafts transporteren rotatie in een rechte lijn. Cogwheels verbinden naast elkaar en kunnen snelheid/kracht aanpassen.",
+          "items": ["Shaft", "Cogwheel", "Large Cogwheel"],
+          "tip": "Large Cogwheel + Small Cogwheel = snelheidsverdubbeling (maar minder kracht)"
+        },
+        {
+          "id": "create-004",
+          "text": "Craft een Water Wheel",
+          "details": "Je eerste rotatiebron. Plaats in stromend water voor gratis Stress Units (SU). Meerdere naast elkaar voor meer power.",
+          "items": ["Water Wheel"],
+          "tip": "3 Water Wheels naast elkaar in optimaal water geeft 48 SU elk"
+        },
+        {
+          "id": "create-005",
+          "text": "Begrijp Stress Units (SU)",
+          "details": "Elke machine verbruikt SU (stress). Generatoren produceren SU. Zorg dat je totale verbruik niet hoger is dan je productie.",
+          "items": [],
+          "tip": "Gebruik een Stressometer op een shaft om je netwerk te monitoren"
+        }
+      ]
+    },
+    {
+      "id": "create-processing",
+      "title": "Processing & Automatisering",
+      "steps": [
+        {
+          "id": "create-010",
+          "text": "Craft een Millstone",
+          "details": "Maalt items fijn. Wheat → Flour, Bone → Bone Meal, ores → crushed ores (meer output).",
+          "items": ["Millstone"],
+          "tip": "Gooi items van bovenaf erin of gebruik een hopper"
+        },
+        {
+          "id": "create-011",
+          "text": "Craft een Mechanical Press",
+          "details": "Perst items plat: Ingots → Sheets, Iron → Iron Sheet (nodig voor veel recipes). Plaats boven een Belt of Depot.",
+          "items": ["Mechanical Press"],
+          "tip": "Met een Basin eronder kun je ook compacten (bijv. nuggets → ingots)"
+        },
+        {
+          "id": "create-012",
+          "text": "Craft een Mechanical Mixer",
+          "details": "Mixt items in een Basin. Nodig voor alloys en vloeistof-combinaties. Moet aan een rotatiebron zitten.",
+          "items": ["Mechanical Mixer", "Basin"],
+          "tip": "Mixer + Basin is je Create-versie van een crafting table voor veel recipes"
+        },
+        {
+          "id": "create-013",
+          "text": "Bouw je eerste Conveyor Belt lijn",
+          "details": "Belts transporteren items automatisch. Combineer met Funnels, Presses en Mixers voor een productielijn.",
+          "items": ["Mechanical Belt", "Andesite Funnel", "Brass Funnel"],
+          "tip": "Items op belts worden automatisch opgepakt door machines erboven"
+        },
+        {
+          "id": "create-014",
+          "text": "Craft Deployers voor automatisch gebruik",
+          "details": "Deployers simuleren rechtermuisklik-acties. Kunnen craften, planten, items gebruiken - enorm veelzijdig.",
+          "items": ["Deployer"],
+          "tip": "Deployer + Belt = automatische crafting voor recipes die niet in een Mixer passen"
+        }
+      ]
+    },
+    {
+      "id": "create-brass",
+      "title": "Brass Tier & Trains",
+      "steps": [
+        {
+          "id": "create-020",
+          "text": "Maak Brass Ingots",
+          "details": "Melt Copper + Zinc samen in een Mixer + heated Basin. Brass is nodig voor geavanceerde Create machines.",
+          "items": ["Brass Ingot"],
+          "tip": "Je kunt een Blaze Burner onder de Basin zetten voor verwarming"
+        },
+        {
+          "id": "create-021",
+          "text": "Craft een Blaze Burner",
+          "details": "Gebruik een Empty Blaze Burner op een Blaze om hem te vangen. Geeft warmte aan Basins voor smelting recipes.",
+          "items": ["Blaze Burner"],
+          "tip": "Voed met fuel items. Blaze Cakes geven superheated mode voor speciale recipes"
+        },
+        {
+          "id": "create-022",
+          "text": "Craft Brass Casings",
+          "details": "Klik met Brass Ingots op een Stripped Log. Brass Casings zijn nodig voor geavanceerde machines.",
+          "items": ["Brass Casing"],
+          "tip": null
+        },
+        {
+          "id": "create-023",
+          "text": "Craft een Mechanical Crafter",
+          "details": "Automatiseert crafting table recipes. Plaats meerdere in een grid en verbind ze met pijlen voor complexe recipes.",
+          "items": ["Mechanical Crafter"],
+          "tip": "Je hebt een grid van Crafters nodig dat past bij het recipe (bijv. 3x3)"
+        },
+        {
+          "id": "create-024",
+          "text": "Bouw je eerste Create Train",
+          "details": "Trains transporteren items over lange afstanden. Craft Train Tracks, een Train Station en een Train Casing.",
+          "items": ["Train Track", "Train Station", "Train Casing"],
+          "tip": "Trains zijn geweldig voor inter-base transport en maken de wereld levendiger"
+        }
+      ]
+    },
+    {
+      "id": "create-advanced",
+      "title": "Geavanceerde Create",
+      "steps": [
+        {
+          "id": "create-030",
+          "text": "Craft Rotation Speed Controllers",
+          "details": "Stelt exact de RPM in die je nodig hebt. Essentieel voor het optimaliseren van je fabrieken.",
+          "items": ["Rotation Speed Controller"],
+          "tip": "Sommige machines werken beter op specifieke snelheden"
+        },
+        {
+          "id": "create-031",
+          "text": "Bouw contraptions voor mobiele machines",
+          "details": "Gebruik Mechanical Bearings, Pistons of Pulleys om bewegende structuren te maken die minen, bouwen of farmen.",
+          "items": ["Mechanical Bearing", "Mechanical Piston", "Rope Pulley"],
+          "tip": "Een draaiende contraption met Drills = automatische tree farm of quarry"
+        },
+        {
+          "id": "create-032",
+          "text": "Maak een Sequenced Assembly lijn",
+          "details": "Sommige Create items vereisen Sequenced Assembly: een reeks stappen (press, deploy, cut) op een Belt.",
+          "items": [],
+          "tip": "Volg het JEI recipe precies - de volgorde van stappen is belangrijk"
+        },
+        {
+          "id": "create-033",
+          "text": "Craft een Display Link en Display Board",
+          "details": "Display Links lezen data van machines en tonen het op Display Boards. Monitoring van je fabriek.",
+          "items": ["Display Link", "Display Board"],
+          "tip": "Koppel aan een Stressometer voor real-time SU monitoring"
+        },
+        {
+          "id": "create-034",
+          "text": "Bouw een volledig geautomatiseerde Create fabriek",
+          "details": "Combineer Belts, Presses, Mixers, Deployers en Crafters tot een productielijn die automatisch complexe items maakt.",
+          "items": [],
+          "tip": "Create draait om creativiteit - er is geen 'juiste' manier om je fabriek te bouwen!"
+        }
+      ]
+    }
+  ]
+}

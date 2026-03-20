@@ -1,0 +1,146 @@
+[
+  {
+    "id": "tinkers-construct",
+    "name": "Tinkers' Construct",
+    "phase": "early",
+    "shortDescription": "Custom tools en smeltery",
+    "dependencies": [],
+    "questFile": "tinkers-construct.json"
+  },
+  {
+    "id": "jei",
+    "name": "JEI (Just Enough Items)",
+    "phase": "early",
+    "shortDescription": "Recipe viewer en zoekfunctie",
+    "dependencies": [],
+    "questFile": "jei.json"
+  },
+  {
+    "id": "sophisticated-backpacks",
+    "name": "Sophisticated Backpacks",
+    "phase": "early",
+    "shortDescription": "Upgradeable backpacks voor opslag",
+    "dependencies": [],
+    "questFile": "sophisticated-backpacks.json"
+  },
+  {
+    "id": "iron-chests",
+    "name": "Iron Chests",
+    "phase": "early",
+    "shortDescription": "Grotere chests van verschillende materialen",
+    "dependencies": [],
+    "questFile": "iron-chests.json"
+  },
+  {
+    "id": "waystones",
+    "name": "Waystones",
+    "phase": "early",
+    "shortDescription": "Teleportatie netwerk",
+    "dependencies": [],
+    "questFile": "waystones.json"
+  },
+  {
+    "id": "apotheosis",
+    "name": "Apotheosis",
+    "phase": "early",
+    "shortDescription": "Enchanting overhaul en spawner modificatie",
+    "dependencies": [],
+    "questFile": "apotheosis.json"
+  },
+  {
+    "id": "mekanism",
+    "name": "Mekanism",
+    "phase": "mid",
+    "shortDescription": "Ore processing, energie en machines",
+    "dependencies": ["tinkers-construct"],
+    "questFile": "mekanism.json"
+  },
+  {
+    "id": "ae2",
+    "name": "Applied Energistics 2",
+    "phase": "mid",
+    "shortDescription": "Digitale opslag en autocrafting",
+    "dependencies": ["mekanism"],
+    "questFile": "ae2.json"
+  },
+  {
+    "id": "industrial-foregoing",
+    "name": "Industrial Foregoing",
+    "phase": "mid",
+    "shortDescription": "Farming, mob grinding en resource generation",
+    "dependencies": [],
+    "questFile": "industrial-foregoing.json"
+  },
+  {
+    "id": "thermal-series",
+    "name": "Thermal Series",
+    "phase": "mid",
+    "shortDescription": "Machines, conduits en augments",
+    "dependencies": [],
+    "questFile": "thermal-series.json"
+  },
+  {
+    "id": "ars-nouveau",
+    "name": "Ars Nouveau",
+    "phase": "mid",
+    "shortDescription": "Spell crafting en magische automatisering",
+    "dependencies": [],
+    "questFile": "ars-nouveau.json"
+  },
+  {
+    "id": "botania",
+    "name": "Botania",
+    "phase": "mid",
+    "shortDescription": "Natuurlijke magie en mana generatie",
+    "dependencies": [],
+    "questFile": "botania.json"
+  },
+  {
+    "id": "draconic-evolution",
+    "name": "Draconic Evolution",
+    "phase": "late",
+    "shortDescription": "Dragon-tier armor, tools en energie opslag",
+    "dependencies": ["mekanism", "ae2"],
+    "questFile": "draconic-evolution.json"
+  },
+  {
+    "id": "extended-crafting",
+    "name": "Extended Crafting",
+    "phase": "late",
+    "shortDescription": "Geavanceerde crafting tables en automation",
+    "dependencies": ["ae2"],
+    "questFile": "extended-crafting.json"
+  },
+  {
+    "id": "powah",
+    "name": "Powah",
+    "phase": "late",
+    "shortDescription": "Energie generatie en overdracht",
+    "dependencies": [],
+    "questFile": "powah.json"
+  },
+  {
+    "id": "pneumaticcraft",
+    "name": "PneumaticCraft: Repressurized",
+    "phase": "late",
+    "shortDescription": "Pressure-based machines en drones",
+    "dependencies": [],
+    "questFile": "pneumaticcraft.json"
+  },
+  {
+    "id": "create",
+    "name": "Create",
+    "phase": "late",
+    "shortDescription": "Mechanische automatisering met rotatie",
+    "dependencies": [],
+    "questFile": "create.json"
+  },
+  {
+    "id": "atm-star",
+    "name": "ATM Star",
+    "phase": "endgame",
+    "shortDescription": "Het ultieme doel - craft de ATM Star",
+    "dependencies": ["mekanism", "ae2", "draconic-evolution", "extended-crafting", "botania", "ars-nouveau"],
+    "questFile": "atm-star.json"
+  }
+]

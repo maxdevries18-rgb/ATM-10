@@ -1,0 +1,457 @@
+/* === Phase Groups (Sidebar) === */
+.phase-group {
+  margin-bottom: 0.3rem;
+}
+
+.phase-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+}
+
+.phase-header:hover {
+  color: var(--text-primary);
+}
+
+.phase-header .phase-arrow {
+  font-size: 0.7rem;
+  transition: transform var(--transition);
+  width: 1rem;
+  text-align: center;
+}
+
+.phase-header.collapsed .phase-arrow {
+  transform: rotate(-90deg);
+}
+
+.phase-header .phase-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.phase-header .phase-progress {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.phase-mods {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.phase-header.collapsed + .phase-mods {
+  max-height: 0 !important;
+}
+
+/* === Mod Items (Sidebar) === */
+.mod-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1rem 0.5rem 2.2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+  border-left: 3px solid transparent;
+}
+
+.mod-item:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.mod-item.active {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border-left-color: var(--accent);
+}
+
+.mod-item .mod-status {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--border-light);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  transition: all var(--transition);
+}
+
+.mod-item .mod-status.complete {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+.mod-item .mod-status.partial {
+  border-color: var(--accent);
+}
+
+.mod-item .mod-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mod-item .mod-pct {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* === Hidden attribute support === */
+[hidden] {
+  display: none !important;
+}
+
+/* === Welcome Screen === */
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 60vh;
+  gap: 1rem;
+}
+
+.welcome-icon {
+  font-size: 4rem;
+}
+
+.welcome-screen h2 {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.welcome-screen p {
+  color: var(--text-secondary);
+  max-width: 400px;
+}
+
+.welcome-phases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.welcome-phase-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-align: left;
+  border-left: 3px solid;
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.welcome-phase-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.welcome-phase-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.welcome-phase-card p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* === Mod View Header === */
+.mod-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.mod-title {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.mod-description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.mod-progress-wrap {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+  min-width: 120px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--bg-input);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  width: 0%;
+}
+
+.progress-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* === Dependencies Panel === */
+.mod-dependencies {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 1rem;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  flex-wrap: wrap;
+}
+
+.dep-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.dep-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.dep-link {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: var(--bg-hover);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background var(--transition);
+  text-decoration: none;
+}
+
+.dep-link:hover {
+  background: var(--border);
+}
+
+/* === Quest Sections === */
+.quest-section {
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.5rem;
+}
+
+.section-arrow {
+  font-size: 0.7rem;
+  transition: transform var(--transition);
+  width: 1rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.section-header.collapsed .section-arrow {
+  transform: rotate(-90deg);
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.section-progress {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.section-steps {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.section-header.collapsed ~ .section-steps {
+  max-height: 0 !important;
+}
+
+/* === Quest Steps === */
+.quest-step {
+  display: flex;
+  gap: 0.8rem;
+  padding: 0.7rem 0.5rem;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition);
+  align-items: flex-start;
+}
+
+.quest-step:hover {
+  background: var(--bg-card);
+}
+
+.step-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-top: 1px;
+  position: relative;
+  transition: all var(--transition);
+  background: transparent;
+}
+
+.step-checkbox:checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.step-checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--bg-primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.step-checkbox:hover {
+  border-color: var(--accent);
+}
+
+.step-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.step-text {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  transition: color var(--transition);
+}
+
+.quest-step.completed .step-text {
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+
+.step-details {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+
+.step-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+}
+
+.step-item-tag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  background: var(--bg-hover);
+  border-radius: 10px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.step-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  background: rgba(255, 152, 0, 0.1);
+  border-left: 3px solid var(--endgame);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.8rem;
+  color: var(--endgame);
+}
+
+.step-tip::before {
+  content: '💡';
+  flex-shrink: 0;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-light);
+}
+
+/* === Animations === */
+@keyframes checkPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.step-checkbox.just-checked {
+  animation: checkPulse 0.3s ease;
+}

@@ -1,0 +1,66 @@
+{
+  "modId": "waystones",
+  "sections": [
+    {
+      "id": "ws-vinden",
+      "title": "Waystones Vinden & Plaatsen",
+      "steps": [
+        {
+          "id": "ws-001",
+          "text": "Vind een Waystone in een village",
+          "details": "Waystones spawnen automatisch in villages. Klik erop om hem te activeren en een naam te geven.",
+          "items": ["Waystone"],
+          "tip": "Elke village heeft meestal één Waystone - check het dorpscentrum"
+        },
+        {
+          "id": "ws-002",
+          "text": "Craft je eigen Waystone",
+          "details": "Met 3 Stone Bricks onderaan, een Ender Pearl in het midden, en 2 Obsidian aan de zijkanten. Zo kun je overal een teleportpunt plaatsen.",
+          "items": ["Waystone", "Ender Pearl", "Obsidian"],
+          "tip": null
+        },
+        {
+          "id": "ws-003",
+          "text": "Geef je Waystone een naam",
+          "details": "Bij het eerste gebruik kun je de Waystone een naam geven. Kies iets herkenbaars zoals 'Base', 'Nether Hub' of 'Mining Spot'.",
+          "items": [],
+          "tip": "Je kunt de naam later aanpassen door opnieuw op de Waystone te klikken"
+        }
+      ]
+    },
+    {
+      "id": "ws-teleport",
+      "title": "Teleportatie",
+      "steps": [
+        {
+          "id": "ws-010",
+          "text": "Teleporteer tussen Waystones",
+          "details": "Klik op een geactiveerde Waystone om een lijst van alle bekende Waystones te zien. Selecteer je bestemming om te teleporteren.",
+          "items": [],
+          "tip": "Teleportatie kost XP levels, afhankelijk van de afstand"
+        },
+        {
+          "id": "ws-011",
+          "text": "Craft een Warp Stone voor mobiel teleporteren",
+          "details": "De Warp Stone is een draagbaar item waarmee je overal naar bekende Waystones kunt teleporteren zonder bij een Waystone te staan.",
+          "items": ["Warp Stone"],
+          "tip": "De Warp Stone heeft een cooldown na gebruik"
+        },
+        {
+          "id": "ws-012",
+          "text": "Gebruik Warp Scrolls voor eenmalig gebruik",
+          "details": "Warp Scrolls zijn goedkoper maar verdwijnen na gebruik. Handig als nood-teleport of om aan andere spelers te geven.",
+          "items": ["Warp Scroll"],
+          "tip": null
+        },
+        {
+          "id": "ws-013",
+          "text": "Stel een globaal netwerk op",
+          "details": "Plaats Waystones op strategische plekken: je base, Nether portaal, End portaal, farms, en bij villages. Zo reis je razendsnel rond.",
+          "items": ["Waystone"],
+          "tip": "Waystones werken ook cross-dimensionaal tussen Overworld en Nether"
+        }
+      ]
+    }
+  ]
+}

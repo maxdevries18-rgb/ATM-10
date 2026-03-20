@@ -1,0 +1,107 @@
+{
+  "modId": "powah",
+  "sections": [
+    {
+      "id": "pow-generators",
+      "title": "Generators",
+      "steps": [
+        {
+          "id": "pow-001",
+          "text": "Craft een Furnator",
+          "details": "De Furnator verbrandt solid fuels zoals coal en charcoal voor energie. Werkt als een simpele generator om mee te starten.",
+          "items": ["Furnator"],
+          "tip": "Alle Powah generators hebben tiers van Starter tot Nitro - begin met Starter of Basic"
+        },
+        {
+          "id": "pow-002",
+          "text": "Craft een Magmator",
+          "details": "De Magmator gebruikt lava als brandstof. Effectiever dan de Furnator en makkelijk te voeden met een lava farm.",
+          "items": ["Magmator"],
+          "tip": "Combineer met een Thermal Magma Crucible voor continue lava supply"
+        },
+        {
+          "id": "pow-003",
+          "text": "Craft een Thermo Generator",
+          "details": "De Thermo Generator produceert energie door temperatuurverschillen. Plaats hem tussen een hete en koude bron (lava en water).",
+          "items": ["Thermo Generator"],
+          "tip": "Volledig passief - geen brandstof nodig, alleen correcte plaatsing"
+        },
+        {
+          "id": "pow-004",
+          "text": "Craft Solar Panels",
+          "details": "Solar Panels genereren energie overdag. Hogere tiers produceren meer energie en sommige werken ook 's nachts.",
+          "items": ["Solar Panel"],
+          "tip": "Nitro Solar Panels zijn een van de beste passieve energiebronnen in het pack"
+        }
+      ]
+    },
+    {
+      "id": "pow-reactors",
+      "title": "Reactors",
+      "steps": [
+        {
+          "id": "pow-010",
+          "text": "Craft een Niotic Reactor",
+          "details": "De Niotic Reactor is de eerste reactor tier. Genereert flink wat energie maar heeft Niotic Crystals nodig als brandstof.",
+          "items": ["Niotic Reactor", "Niotic Crystal"],
+          "tip": "Niotic Crystals craft je met Diamonds en Energized Steel"
+        },
+        {
+          "id": "pow-011",
+          "text": "Craft een Spirited Reactor",
+          "details": "De Spirited Reactor is krachtiger dan Niotic. Gebruikt Spirited Crystals die duurder zijn om te maken.",
+          "items": ["Spirited Reactor", "Spirited Crystal"],
+          "tip": "Spirited Crystals vereisen Emeralds en Blazing Crystals"
+        },
+        {
+          "id": "pow-012",
+          "text": "Craft een Nitro Reactor",
+          "details": "De Nitro Reactor is de krachtigste generator in Powah. Produceert enorme hoeveelheden energie met Nitro Crystals.",
+          "items": ["Nitro Reactor", "Nitro Crystal"],
+          "tip": "Nitro Crystals zijn duur maar een enkele Nitro Reactor kan je hele basis van energie voorzien"
+        },
+        {
+          "id": "pow-013",
+          "text": "Automatiseer Crystal productie",
+          "details": "Reactors verbruiken Crystals continu. Setup een auto-crafting systeem om Crystals bij te maken en in de Reactor te voeren.",
+          "items": ["Nitro Crystal"],
+          "tip": "Een Applied Energistics of Refined Storage auto-crafting setup werkt hier perfect voor"
+        }
+      ]
+    },
+    {
+      "id": "pow-transport",
+      "title": "Energie Transport & Opslag",
+      "steps": [
+        {
+          "id": "pow-020",
+          "text": "Craft Energy Cables",
+          "details": "Powah Energy Cables transporteren energie tussen generators, opslag en machines. Hogere tiers hebben meer throughput.",
+          "items": ["Energy Cable"],
+          "tip": "Cables verbinden automatisch met alle RF-compatibele machines"
+        },
+        {
+          "id": "pow-021",
+          "text": "Craft Energy Cells voor opslag",
+          "details": "Energy Cells slaan RF op. Van Starter tot Nitro tier, elke tier slaat exponentieel meer energie op.",
+          "items": ["Energy Cell"],
+          "tip": "Zet een Energy Cell tussen je generators en machines als buffer"
+        },
+        {
+          "id": "pow-022",
+          "text": "Craft een Ender Cell voor wireless energie",
+          "details": "De Ender Cell transporteert energie draadloos over elke afstand, zelfs tussen dimensies. Link twee Ender Cells met een Binding Card.",
+          "items": ["Ender Cell", "Binding Card"],
+          "tip": "Ideaal voor het sturen van energie naar je mining dimensie of End base"
+        },
+        {
+          "id": "pow-023",
+          "text": "Craft een Player Transmitter",
+          "details": "De Player Transmitter laadt automatisch alle Powah items in je inventory op wanneer je in de buurt bent.",
+          "items": ["Player Transmitter"],
+          "tip": "Handig voor het opladen van je Draconic armor of andere RF-powered tools"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "modId": "ars-nouveau",
+  "sections": [
+    {
+      "id": "ars-start",
+      "title": "Eerste Stappen met Magie",
+      "steps": [
+        {
+          "id": "ars-001",
+          "text": "Craft een Worn Notebook",
+          "details": "Je magische gids. Klik met de Worn Notebook op een Bookshelf om het te vullen met kennis over Ars Nouveau.",
+          "items": ["Worn Notebook", "Bookshelf"],
+          "tip": "Dit boek is je beste vriend - het legt alle spells en mechanics uit"
+        },
+        {
+          "id": "ars-002",
+          "text": "Vind of plant een Archwood Tree",
+          "details": "Archwood bomen spawnen in de wereld. Er zijn 4 types: Blazing, Cascading, Flourishing en Vexing. Je hebt het hout en saplings nodig.",
+          "items": ["Archwood Log", "Archwood Sapling"],
+          "tip": "Elke Archwood variant heeft unieke eigenschappen - verzamel ze allemaal"
+        },
+        {
+          "id": "ars-003",
+          "text": "Craft Source Gems",
+          "details": "Source Gems vind je in Archwood bomen of door Mana Berries te oogsten. Dit is de basiscurrency voor magie.",
+          "items": ["Source Gem", "Mana Berry"],
+          "tip": null
+        },
+        {
+          "id": "ars-004",
+          "text": "Bouw een Source Jar",
+          "details": "Slaat Source (mana) op. Plaats ze bij je Enchanting Apparatus en andere magische blokken.",
+          "items": ["Source Jar"],
+          "tip": "Source Jars vullen automatisch nabijgelegen machines"
+        }
+      ]
+    },
+    {
+      "id": "ars-spells",
+      "title": "Spell Crafting",
+      "steps": [
+        {
+          "id": "ars-010",
+          "text": "Craft een Spell Book",
+          "details": "Je Spell Book is waar je al je spells opslaat en selecteert. Craft het met Source Gems en een boek.",
+          "items": ["Spell Book"],
+          "tip": null
+        },
+        {
+          "id": "ars-011",
+          "text": "Bouw een Scribes Table",
+          "details": "De Scribes Table is waar je nieuwe spell glyphs leert. Gooi de juiste reagent op de tafel en klik.",
+          "items": ["Scribes Table"],
+          "tip": null
+        },
+        {
+          "id": "ars-012",
+          "text": "Leer je eerste Glyphs",
+          "details": "Begin met basis glyphs: Projectile (Form), Break (Effect), en Ignite (Effect). Elke spell bestaat uit een Form + Effect combinatie.",
+          "items": ["Glyph: Projectile", "Glyph: Break", "Glyph: Ignite"],
+          "tip": "Forms bepalen HOE de spell werkt, Effects bepalen WAT hij doet"
+        },
+        {
+          "id": "ars-013",
+          "text": "Maak je eerste spell",
+          "details": "Open je Spell Book, kies een Form (bijv. Projectile) en voeg een Effect toe (bijv. Break). Dit maakt een ranged block-breaker!",
+          "items": [],
+          "tip": "Experimenteer met combinaties - je kunt meerdere effects en augments aan één spell toevoegen"
+        },
+        {
+          "id": "ars-014",
+          "text": "Leer Augment glyphs",
+          "details": "Augments versterken je spells: Amplify (meer schade), Extend Time, Accelerate, AOE (area of effect), en meer.",
+          "items": ["Glyph: Amplify", "Glyph: AOE", "Glyph: Accelerate"],
+          "tip": "AOE + Break + Projectile = instant grote gebieden minen"
+        }
+      ]
+    },
+    {
+      "id": "ars-apparatus",
+      "title": "Enchanting & Crafting",
+      "steps": [
+        {
+          "id": "ars-020",
+          "text": "Bouw een Enchanting Apparatus",
+          "details": "De Enchanting Apparatus is een multiblock die Source gebruikt om items te enchanten en speciale recipes te craften. Omring een Arcane Core met Arcane Pedestals.",
+          "items": ["Enchanting Apparatus", "Arcane Core", "Arcane Pedestal"],
+          "tip": "Zorg dat er een gevulde Source Jar in de buurt staat"
+        },
+        {
+          "id": "ars-021",
+          "text": "Craft Spell Parchments voor automation",
+          "details": "Spell Parchments bevatten spells die door Spell Turrets afgevuurd kunnen worden - perfecte automatisering.",
+          "items": ["Spell Parchment"],
+          "tip": null
+        },
+        {
+          "id": "ars-022",
+          "text": "Craft een Spell Turret",
+          "details": "Spell Turrets vuren automatisch spells af. Combineer met Spell Parchments voor farming, mob grinding of resource collection.",
+          "items": ["Spell Turret"],
+          "tip": "Een Turret met AOE + Harvest + Touch = automatische boerderij"
+        },
+        {
+          "id": "ars-023",
+          "text": "Upgrade je armor met Ars Nouveau enchantments",
+          "details": "De Enchanting Apparatus kan speciale Ars enchantments op armor en tools zetten die niet via vanilla enchanting mogelijk zijn.",
+          "items": [],
+          "tip": "Mana Regen en Spell Damage zijn top-tier enchantments"
+        }
+      ]
+    },
+    {
+      "id": "ars-advanced",
+      "title": "Geavanceerde Magie",
+      "steps": [
+        {
+          "id": "ars-030",
+          "text": "Bouw Source generatie: Volcanic Sourcelink",
+          "details": "Volcanic Sourcelinks genereren Source van lava. Plaats ze bij Source Jars voor automatische vulling.",
+          "items": ["Volcanic Sourcelink"],
+          "tip": "Er zijn meerdere Sourcelinks: Alchemical, Mycelial, Vitalic - elk met eigen fuel"
+        },
+        {
+          "id": "ars-031",
+          "text": "Craft Starbuncles voor item transport",
+          "details": "Starbuncles zijn magische wezens die items oppakken en naar chests brengen. Geef ze een item filter om specifiek te zijn.",
+          "items": ["Starbuncle Charm"],
+          "tip": "Klik met een Item Scroll op een Starbuncle om te filteren"
+        },
+        {
+          "id": "ars-032",
+          "text": "Tame Drygmy's voor mob loot farming",
+          "details": "Drygmy's genereren mob drops zonder de mobs te doden. Bouw een Drygmy Hive en zet mobs in de buurt.",
+          "items": ["Drygmy Charm", "Drygmy Hive"],
+          "tip": "Meer mobs in de buurt = meer loot productie"
+        },
+        {
+          "id": "ars-033",
+          "text": "Craft Wixie Cauldrons voor auto-crafting",
+          "details": "Wixies zitten in een cauldron en craften automatisch items. Leer ze recipes door met items te klikken.",
+          "items": ["Wixie Charm"],
+          "tip": "Wixies zijn geweldig voor potion brewing automatisering"
+        },
+        {
+          "id": "ars-034",
+          "text": "Maak een Wilden Tribute en versla de Wilden Boss",
+          "details": "De Wilden Boss dropt Wilden Wings, Wilden Horn en Wilden Spike - nodig voor top-tier Ars items.",
+          "items": ["Wilden Tribute", "Wilden Wing", "Wilden Horn", "Wilden Spike"],
+          "tip": "Bereid je goed voor - deze boss is lastig zonder goede spells en armor"
+        }
+      ]
+    }
+  ]
+}
