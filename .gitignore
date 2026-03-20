@@ -1,7 +1,4 @@
 .claude/
 CLAUDE.md
-PROJECT.md
-CHANGELOG.md
-TODO.md
 server.js
 node_modules/
