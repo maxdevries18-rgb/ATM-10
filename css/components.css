@@ -143,16 +143,24 @@
 
 .welcome-screen p {
   color: var(--text-secondary);
-  max-width: 400px;
+  max-width: 100%; /* Ensure it doesn't overflow container */
+  padding: 0 1rem;
 }
 
 .welcome-phases {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* Smaller min-width for mobile */
   gap: 1rem;
   margin-top: 1.5rem;
   width: 100%;
   max-width: 600px;
+  padding: 0 1rem;
+}
+
+@media (max-width: 400px) {
+  .welcome-phases {
+    grid-template-columns: 1fr; /* Force 1 column on very small screens */
+  }
 }
 
 .welcome-phase-card {
