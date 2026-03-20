@@ -1,12 +1,12 @@
 # To Do
 
-## Bugs (hoge prioriteit)
-1. GitHub Pages activeren en testen op mobiel (Klaar voor activatie: bestanden gepusht, relatieve paden gecontroleerd)
-
 ## Voltooid ✅
+1. GitHub Pages activeren en testen op mobiel (Layout verbeterd, touch-targets vergroot, iOS zoom gefixed)
 2. Sidebar zichtbaar maken op desktop — wordt nu alleen getoond via hamburger menu (Gefixed met CSS media queries en expliciete transform reset)
 3. Phase collapse animatie: initiële maxHeight ontbreekt bij ingeklapte fases (Gefixed met expliciete else-clause in renderer.js)
 4. Section collapse: maxHeight wordt niet herberekend na content wijzigingen (Gefixed door maxHeight na animatie te resetten naar 'none')
+14. Laadscherm/spinner tonen tijdens app initialisatie (⛏️ overlay toegevoegd in index.html)
+15. Foutmelding tonen als quest JSON bestanden niet laden (Globale error handler toegevoegd in js/app.js)
 
 ## Verbeteringen (functioneel)
 
@@ -19,8 +19,6 @@
 11. Donker/licht theme toggle
 12. PWA maken (offline beschikbaar, installeerbaar op telefoon)
 13. README.md op GitHub bijwerken met project beschrijving en screenshot
-14. Laadscherm/spinner tonen tijdens app initialisatie (nu blank scherm tijdens laden)
-15. Foutmelding tonen als quest JSON bestanden niet laden (nu blijft "loading" tekst staan)
 
 ## Prestatie
 16. Sidebar niet volledig opnieuw renderen bij elke stap-toggle — alleen het betreffende mod-item bijwerken (js/app.js)

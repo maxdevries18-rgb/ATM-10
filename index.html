@@ -8,6 +8,18 @@
   <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
+  <div id="loadingOverlay" style="position:fixed;top:0;left:0;right:0;bottom:0;background:var(--bg-primary);z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity 0.3s ease;">
+    <div style="font-size:3rem;margin-bottom:1rem;animation:pulse 1.5s infinite;">⛏️</div>
+    <div style="color:var(--accent);font-weight:600;letter-spacing:1px;">LADEN...</div>
+    <style>
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.1); opacity: 0.7; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+    </style>
+  </div>
+
   <header class="header">
     <button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">
       <span></span><span></span><span></span>

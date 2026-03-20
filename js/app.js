@@ -68,6 +68,13 @@ async function init() {
 
   // Set up sidebar toggle (mobile)
   setupSidebarToggle();
+
+  // Hide loading overlay
+  const loading = document.getElementById('loadingOverlay');
+  if (loading) {
+    loading.style.opacity = '0';
+    setTimeout(() => loading.remove(), 300);
+  }
 }
 
 function selectMod(modId) {
@@ -127,17 +134,31 @@ function setupSidebarToggle() {
   const toggle = document.getElementById('sidebarToggle');
   const sidebar = document.getElementById('sidebar');
 
-  toggle.addEventListener('click', () => {
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation();
     sidebar.classList.toggle('open');
   });
 
   // Close sidebar when clicking outside on mobile
-  document.getElementById('mainContent').addEventListener('click', () => {
-    sidebar.classList.remove('open');
+  document.addEventListener('click', (e) => {
+    if (sidebar.classList.contains('open') && !sidebar.contains(e.target) && !toggle.contains(e.target)) {
+      sidebar.classList.remove('open');
+    }
   });
 }
 
 // Start the app
 init().catch(err => {
   console.error('App initialization failed:', err);
+  const loading = document.getElementById('loadingOverlay');
+  if (loading) {
+    loading.innerHTML = `
+      <div style="color:var(--danger);padding:2rem;text-align:center;">
+        <div style="font-size:3rem;margin-bottom:1rem;">⚠️</div>
+        <h3>Oeps! Er ging iets mis.</h3>
+        <p style="margin-top:0.5rem;font-size:0.8rem;color:var(--text-secondary)">${err.message}</p>
+        <button onclick="location.reload()" style="margin-top:1.5rem;padding:0.6rem 1.2rem;background:var(--accent);border:none;border-radius:var(--radius);cursor:pointer;font-weight:600;">Opnieuw proberen</button>
+      </div>
+    `;
+  }
 });
