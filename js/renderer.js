@@ -80,6 +80,8 @@ export function renderSidebar(phases, mods, allQuestData) {
       requestAnimationFrame(() => {
         modList.style.maxHeight = modList.scrollHeight + 'px';
       });
+    } else {
+      modList.style.maxHeight = '0';
     }
 
     group.appendChild(header);
@@ -163,12 +165,22 @@ export function renderModView(mod, questData, onStepToggle) {
     headerEl.addEventListener('click', () => {
       headerEl.classList.toggle('collapsed');
       state.toggleSectionCollapse(section.id);
+      
       // Toggle steps visibility
       const stepsEl = headerEl.nextElementSibling;
       if (headerEl.classList.contains('collapsed')) {
-        stepsEl.style.maxHeight = '0';
+        stepsEl.style.maxHeight = stepsEl.scrollHeight + 'px'; // Start from current height
+        requestAnimationFrame(() => {
+          stepsEl.style.maxHeight = '0';
+        });
       } else {
         stepsEl.style.maxHeight = stepsEl.scrollHeight + 'px';
+        // Clear maxHeight after transition to allow for dynamic height changes (e.g. details expansion)
+        setTimeout(() => {
+          if (!headerEl.classList.contains('collapsed')) {
+            stepsEl.style.maxHeight = 'none';
+          }
+        }, 310);
       }
     });
 

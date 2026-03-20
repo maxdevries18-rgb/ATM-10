@@ -2,11 +2,11 @@
 
 ## Bugs (hoge prioriteit)
 1. GitHub Pages activeren en testen op mobiel (Klaar voor activatie: bestanden gepusht, relatieve paden gecontroleerd)
-3. Phase collapse animatie: initiële maxHeight ontbreekt bij ingeklapte fases (js/renderer.js: else-clause mist bij regel 78-83)
-4. Section collapse: maxHeight wordt niet herberekend na content wijzigingen, kan glitchy animaties veroorzaken (js/renderer.js)
 
 ## Voltooid ✅
 2. Sidebar zichtbaar maken op desktop — wordt nu alleen getoond via hamburger menu (Gefixed met CSS media queries en expliciete transform reset)
+3. Phase collapse animatie: initiële maxHeight ontbreekt bij ingeklapte fases (Gefixed met expliciete else-clause in renderer.js)
+4. Section collapse: maxHeight wordt niet herberekend na content wijzigingen (Gefixed door maxHeight na animatie te resetten naar 'none')
 
 ## Verbeteringen (functioneel)
 

@@ -2,6 +2,8 @@
 
 ## 2026-03-20 — Bugfixes en Optimalisaties
 - [Fix] Sidebar op desktop is nu standaard zichtbaar (transform: none reset toegevoegd aan css/style.css).
+- [Fix] Phase collapse animatie opgelost: initiële hoogte is nu correct bij ingeklapte fases.
+- [Fix] Section collapse animatie verbeterd: hoogte wordt nu correct afgehandeld voor dynamische content.
 - [Pages] Voorbereid voor GitHub Pages: relatieve paden gecontroleerd en bestanden gepusht naar main.
 - [Project] Git repository geïnitialiseerd en gekoppeld aan GitHub.
 
